@@ -3,13 +3,16 @@ using System.Collections;
 
 public class SoundEffects : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public AudioClip[] soundEffects;
+    private AudioSource _audio;
+    // Use this for initialization
+    void Start()
+    {
+        _audio = GetComponent<AudioSource>();
+    }
+
+    public void PlaySound(int soundNumber)
+    {
+        _audio.PlayOneShot(soundEffects[soundNumber]);
+    }
 }

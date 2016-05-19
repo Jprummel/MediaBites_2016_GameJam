@@ -30,4 +30,23 @@ public class CheckCrystals : MonoBehaviour {
             _levelEnd.LevelWin();
         }
     }
+
+    public void Add(GameObject crystal)
+    {
+        if (!_crystals.Contains(crystal))
+        {
+            _crystals.Add(crystal);
+        }
+    }
+
+    public void Remove(GameObject crystal)
+    {
+        _crystals.Remove(crystal);
+
+        if (_crystals.Count == 0)
+        {
+            //WinLevel function
+            _levelEnd.LevelWin();
+        }
+    }
 }

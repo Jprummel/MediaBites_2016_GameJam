@@ -14,7 +14,12 @@ public class PointingLineRenderer : MonoBehaviour {
 
     [SerializeField]
     private bool active = true;
+
+    private GameObject tempHit;
     void Start () {
+
+        DelegateHandeler.OnLazerHit += Activate;
+        DelegateHandeler.OnlazerLeave += Deactivate;
         lineRenderer = GetComponent<LineRenderer>();
 	}
 	
@@ -31,6 +36,22 @@ public class PointingLineRenderer : MonoBehaviour {
         }
     }
 
+    void Activate(GameObject hit)
+    {
+        if (hit == this.gameObject)
+        {
+            active = true;
+        }
+    }
+
+    void Deactivate(GameObject hit)
+    {
+        if(hit == this.gameObject)
+        {
+            active = false;
+        }
+    }
+
     void UpdateLaser()
     {
         Debug.Log("detecting...");
@@ -44,10 +65,12 @@ public class PointingLineRenderer : MonoBehaviour {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, farestRangePoint.transform.position - transform.position, range);
         if (hit.collider != null)
         {
+            tempHit = hit.collider.gameObject;
             lineRenderer.useWorldSpace = true;
-            lineRenderer.SetPosition(1, hit.collider.gameObject.transform.position);
+            lineRenderer.SetPosition(1, tempHit.transform.position);
             lineRenderer.SetPosition(0, transform.position);
             Debug.Log("hitted "+ hit.collider.name);
+            DelegateHandeler.LazerHitEvent(tempHit);
         }
         else
         {
@@ -55,10 +78,7 @@ public class PointingLineRenderer : MonoBehaviour {
             lineRenderer.useWorldSpace = false;
             lineRenderer.SetPosition(1, rangePosition);
             lineRenderer.SetPosition(0, Vector3.zero);
+            DelegateHandeler.LazerLeaveEvent(tempHit);
         }
-
-        
-        
-        
     }
 }

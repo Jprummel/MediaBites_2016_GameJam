@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PointingLineRenderer : MonoBehaviour {
 
+    private ManageCrystals _manageCrystal;
     [SerializeField]
     private float range = 3f;
     private LineRenderer lineRenderer;
@@ -23,6 +24,7 @@ public class PointingLineRenderer : MonoBehaviour {
 
         DelegateHandeler.OnLazerHit += Activate;
         DelegateHandeler.OnlazerLeave += Deactivate;
+        _manageCrystal = GetComponent<ManageCrystals>();
         lineRenderer = GetComponent<LineRenderer>();
         if(origin)
         {
@@ -84,6 +86,7 @@ public class PointingLineRenderer : MonoBehaviour {
             lineRenderer.SetPosition(1, tempHit.transform.position);
             Debug.Log("hitted "+ hit.collider.name);
             DelegateHandeler.LazerHitEvent(tempHit);
+            _manageCrystal.RemoveCrystal();
         }
         else
         {
@@ -92,6 +95,7 @@ public class PointingLineRenderer : MonoBehaviour {
             lineRenderer.SetPosition(0, Vector3.zero);
             lineRenderer.SetPosition(1, rangePosition);
             DelegateHandeler.LazerLeaveEvent(tempHit);
+            _manageCrystal.AddCrystal();
         }
     }
 }

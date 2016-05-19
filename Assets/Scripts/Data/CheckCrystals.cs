@@ -22,7 +22,7 @@ public class CheckCrystals : MonoBehaviour {
 	
 	}
 
-    void CheckLitCrystals()
+    public void CheckLitCrystals()
     {
         if (_crystals.Count == 0)
         {

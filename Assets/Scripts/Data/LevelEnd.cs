@@ -7,6 +7,11 @@ public class LevelEnd : MonoBehaviour {
     
     [SerializeField]private Text        _endText;
                     private Animator    _animator;
+                    private bool _levelHasEnded;
+                    public bool levelHasEnded()
+                    {
+                        return _levelHasEnded;
+                    }
     
 	// Use this for initialization
 	void Start () {
@@ -21,11 +26,13 @@ public class LevelEnd : MonoBehaviour {
     public void LevelWin()
     {
         StartCoroutine(LevelEndingWin());
+        _levelHasEnded = true;
     }
 
     public void LevelLose()
     {
         StartCoroutine(LevelEndingLose());
+        _levelHasEnded = true;
     }
 
     IEnumerator LevelEndingLose()
@@ -37,8 +44,8 @@ public class LevelEnd : MonoBehaviour {
 
     IEnumerator LevelEndingWin()
     {
-        _animator.Play("Camera_Win_Animations");
-        yield return new WaitForSeconds(2);
+        //_animator.Play("Camera_Win_Animations");
+        //yield return new WaitForSeconds(2);
         _endText.text = "Congratulations get ready for the next level";
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings + 1);

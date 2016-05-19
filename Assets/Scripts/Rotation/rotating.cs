@@ -5,7 +5,6 @@ public class rotating : MonoBehaviour {
 
 	private bool _shouldIRotate = false;
 
-
 	void OnMouseDown()
 	{
 		_shouldIRotate = true;
@@ -13,9 +12,7 @@ public class rotating : MonoBehaviour {
 
 	void Update()
 	{
-		Debug.Log (_shouldIRotate);
 		if (_shouldIRotate) {
-			Debug.Log ("Keep doing it");
 			Rotate ();
 		}
 	}
@@ -32,7 +29,6 @@ public class rotating : MonoBehaviour {
 		float angle = Mathf.Atan2 (mousePos.y, mousePos.x) * Mathf.Rad2Deg + 90.0f;
 		angle = Mathf.Round (angle / 45.0f) * 45.0f;
 		qTo = Quaternion.AngleAxis (angle, Vector3.forward);
-		//transform.rotation = Quaternion.Euler (new Vector3 (0, 0, angle));
 
 		transform.rotation = qTo;
 

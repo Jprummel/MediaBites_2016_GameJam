@@ -3,32 +3,27 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class LevelTimer : MonoBehaviour {
-    [SerializeField]private int     _startTimer;
-    [SerializeField]private int     _timer;
-    [SerializeField]private Text _timerText;
-    private bool _timeUp;
-    public bool timeUp()
-    {
-        return _timeUp;
-    }
+    [SerializeField]private int         _startTimer;
+    [SerializeField]private float       _timer;
+    [SerializeField]private Text        _timerText;
+                    private LevelEnd    _levelEnd;
 
 	// Use this for initialization
 	void Start () {
-        _timer = _startTimer;
+        _levelEnd = GetComponent<LevelEnd>();
+        _timer    = _startTimer;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        StartCoroutine(ReduceTimer());
+        _timerText.text = _timer.ToString("0");
+        if (_timer > 0)
+        {
+            _timer -= Time.deltaTime;
+        }
         if (_timer <= 0)
         {
-            _timeUp = true;
+            _levelEnd.LevelLose();
         }
 	}
-
-    IEnumerator ReduceTimer()
-    {
-        yield return new WaitForSeconds(1);
-        _timer--;
-    }
 }

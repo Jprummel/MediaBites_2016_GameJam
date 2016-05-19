@@ -6,13 +6,11 @@ using UnityEngine.UI;
 public class LevelEnd : MonoBehaviour {
     
     [SerializeField]private Text        _endText;
-                    private LevelTimer  _levelTimer;
                     private Animator    _animator;
     
 	// Use this for initialization
 	void Start () {
-        _animator = GetComponent<Animator>();
-        _levelTimer = GameObject.Find("LevelTimer").GetComponent<LevelTimer>();
+        _animator   = GameObject.Find("Main Camera").GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -27,17 +25,14 @@ public class LevelEnd : MonoBehaviour {
 
     public void LevelLose()
     {
-        if (_levelTimer.timeUp())
-        {
-            StartCoroutine(LevelEndingLose());
-        }
+        StartCoroutine(LevelEndingLose());
     }
 
     IEnumerator LevelEndingLose()
     {
         _endText.text = "You suck... Git gud and try again";
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
     }
 
     IEnumerator LevelEndingWin()

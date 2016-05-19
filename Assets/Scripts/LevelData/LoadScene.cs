@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 //Author : Jordi Prummel
 
 public class LoadScene : MonoBehaviour {
-	[SerializeField]
-    private     string  _sceneName;
-    [SerializeField]
-    private     int     _delay;
+	[SerializeField]private string  _sceneName;
+    [SerializeField]private int     _delay;
 
 	public void ChangeLevel()
 	{
@@ -17,6 +16,6 @@ public class LoadScene : MonoBehaviour {
     IEnumerator LoadLevel()
     {
         yield return new WaitForSeconds(_delay);
-        Application.LoadLevel(_sceneName);
+        SceneManager.LoadScene(_sceneName);
     }
 }

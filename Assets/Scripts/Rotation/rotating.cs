@@ -23,15 +23,18 @@ public class rotating : MonoBehaviour {
 	void Rotate()
 	{
 		Vector3 mousePos = Input.mousePosition;
-
+		Quaternion qTo;
 		Vector3 objectPos = Camera.main.WorldToScreenPoint (transform.position);
 
 		mousePos.x = mousePos.x - objectPos.x;
 		mousePos.y = mousePos.y - objectPos.y;
 
-		float angle = Mathf.Atan2 (mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+		float angle = Mathf.Atan2 (mousePos.y, mousePos.x) * Mathf.Rad2Deg + 90.0f;
+		angle = Mathf.Round (angle / 45.0f) * 45.0f;
+		qTo = Quaternion.AngleAxis (angle, Vector3.forward);
+		//transform.rotation = Quaternion.Euler (new Vector3 (0, 0, angle));
 
-		transform.rotation = Quaternion.Euler (new Vector3 (0, 0, angle));
+		transform.rotation = qTo;
 
 		if (Input.GetMouseButtonUp(0)) 
 		{

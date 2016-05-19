@@ -26,7 +26,7 @@ public class rotating : MonoBehaviour {
 		mousePos.x = mousePos.x - objectPos.x;
 		mousePos.y = mousePos.y - objectPos.y;
 
-		float angle = Mathf.Atan2 (mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+		float angle = Mathf.Atan2 (mousePos.y, mousePos.x) * Mathf.Rad2Deg - 90f;
 
 		qTo = Quaternion.AngleAxis (angle, Vector3.forward);
 

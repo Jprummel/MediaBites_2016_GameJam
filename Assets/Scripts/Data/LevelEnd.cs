@@ -40,7 +40,7 @@ public class LevelEnd : MonoBehaviour {
     {
         _endText.text = "You suck... Git gud and try again";
         yield return new WaitForSeconds(1);
-        //SceneManager.LoadScene(0);
+        SceneManager.LoadScene(0);
     }
 
     IEnumerator LevelEndingWin()

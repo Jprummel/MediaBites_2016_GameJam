@@ -3,7 +3,7 @@ using System.Collections;
 
 public class rotating : MonoBehaviour {
 
-	private bool _shouldIRotate = false;
+	bool _shouldIRotate = false;
 
 	void OnMouseDown()
 	{

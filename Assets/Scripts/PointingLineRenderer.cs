@@ -13,22 +13,20 @@ public class PointingLineRenderer : MonoBehaviour {
     private float y;
 
     [SerializeField]
-    private bool active = true;
+    public bool active = true;
     [SerializeField]
     private bool origin = false;
-
-    private bool hasHittedAnother = false;
     private GameObject tempHit;
+    private RaycastHit2D hit;
+
+    bool canceled = false;
+
     void Start () {
 
         DelegateHandeler.OnLazerHit += Activate;
         DelegateHandeler.OnlazerLeave += Deactivate;
         lineRenderer = GetComponent<LineRenderer>();
-        if(origin)
-        {
-            DelegateHandeler.LazerHitEvent(this.gameObject);
-        }
-
+        StartCoroutine(LacerDoesntHit());
     }
 
     void Update () {
@@ -36,13 +34,17 @@ public class PointingLineRenderer : MonoBehaviour {
         if (active)
         {
             UpdateLaser();
+            canceled = false;
         }
         else
         {
-            Debug.Log("sup");
-            lineRenderer.useWorldSpace = false;
-            lineRenderer.SetPosition(1, Vector3.zero);
-            lineRenderer.SetPosition(0, Vector3.zero);
+            if (!canceled)
+            {
+                lineRenderer.useWorldSpace = false;
+                lineRenderer.SetPosition(1, Vector3.zero);
+                lineRenderer.SetPosition(0, Vector3.zero);
+                canceled = true;
+            }
         }
     }
 
@@ -59,10 +61,8 @@ public class PointingLineRenderer : MonoBehaviour {
         if(hit == this.gameObject && !origin)
         {
             active = false;
-            if(tempHit!= null)
-            {
                 DelegateHandeler.LazerLeaveEvent(tempHit);
-            }
+                transform.Rotate(0f, 0f, 10f);
         }
     }
 
@@ -74,24 +74,37 @@ public class PointingLineRenderer : MonoBehaviour {
         y = transform.position.y + range * Mathf.Sin(angle * Mathf.Deg2Rad);
         farestRangePoint.position = new Vector3(x, y, 0f);
 
+        hit = Physics2D.Raycast(transform.position + 
+            (farestRangePoint.transform.position - transform.position)/10, 
+            farestRangePoint.transform.position - transform.position, range);
+    }
+    IEnumerator LacerDoesHit()
+    {
+        Debug.Log("hitted " + hit.collider.name);
+        tempHit = hit.collider.gameObject;
+        lineRenderer.useWorldSpace = true;
+        lineRenderer.SetPosition(0, transform.position);
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position + (farestRangePoint.transform.position - transform.position)/10, farestRangePoint.transform.position - transform.position, range);
-        if (hit.collider != null)
+        while (hit.collider != null)
         {
-            tempHit = hit.collider.gameObject;
-            lineRenderer.useWorldSpace = true;
-            lineRenderer.SetPosition(0, transform.position);
             lineRenderer.SetPosition(1, tempHit.transform.position);
-            Debug.Log("hitted "+ hit.collider.name);
-            DelegateHandeler.LazerHitEvent(tempHit);
+            yield return new WaitForFixedUpdate();
         }
-        else
+            DelegateHandeler.LazerLeaveEvent(tempHit);
+            StartCoroutine(LacerDoesntHit());
+    }
+    IEnumerator LacerDoesntHit()
+    {
+        lineRenderer.useWorldSpace = false;
+        lineRenderer.SetPosition(0, Vector3.zero);
+        while (hit.collider == null)
         {
             rangePosition = new Vector3(0f, range, 0f);
-            lineRenderer.useWorldSpace = false;
-            lineRenderer.SetPosition(0, Vector3.zero);
             lineRenderer.SetPosition(1, rangePosition);
-            DelegateHandeler.LazerLeaveEvent(tempHit);
+            yield return new WaitForFixedUpdate();
         }
+            DelegateHandeler.LazerHitEvent(tempHit);
+            StartCoroutine(LacerDoesHit());
+
     }
 }

@@ -13,9 +13,10 @@ public class DelegateHandeler : MonoBehaviour {
     {
         OnLazerHit(hit);
     }
-
+    
     public static void LazerLeaveEvent(GameObject hit)
     {
+        
         OnlazerLeave(hit);
     }
 }

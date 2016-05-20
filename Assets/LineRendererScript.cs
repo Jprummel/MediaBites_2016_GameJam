@@ -4,6 +4,7 @@ using System.Collections;
 public class LineRendererScript : MonoBehaviour {
 
     LineRenderer lineRenderer;
+	[SerializeField]
     bool active, hitSomething, stopedHitSomething;
     int hitCount;
 
@@ -20,8 +21,8 @@ public class LineRendererScript : MonoBehaviour {
     void Awake()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        DelegateHandeler.OnLazerHit += LazerHit;
-        DelegateHandeler.OnlazerLeave += LazerLeave;
+		LineSplitter.OnLazerHit += LazerHit;
+		LineSplitter.OnlazerLeave += LazerLeave;
 
         if (origin) active = true;
     }
@@ -43,7 +44,7 @@ public class LineRendererScript : MonoBehaviour {
                     oldHit = hit.collider.gameObject;
 
                     if (!CheckIfSelf())
-                        DelegateHandeler.LazerHitEvent(hit.collider.gameObject);
+						DelegateHandeler.LazerHitEvent(hit.collider.gameObject);
                 }
 
                 DrawLineHit();
@@ -61,7 +62,7 @@ public class LineRendererScript : MonoBehaviour {
                     {
                         print("nou ik weet niet");
                         if (oldHit)
-                            DelegateHandeler.LazerLeaveEvent(oldHit);
+							DelegateHandeler.LazerLeaveEvent(oldHit);
                     }
                 }
 
@@ -106,23 +107,26 @@ public class LineRendererScript : MonoBehaviour {
 
     void OnDestroy()
     {
-        DelegateHandeler.OnLazerHit -= LazerHit;
-        DelegateHandeler.OnlazerLeave -= LazerLeave;
+		LineSplitter.OnLazerHit -= LazerHit;
+		LineSplitter.OnlazerLeave -= LazerLeave;
     }
 
     void LazerHit(GameObject hit)
     {
-        if (hit == gameObject && !origin)
-            active = true;
+		if (hit == gameObject && !origin) {
+			print ("i am activated" + gameObject.name);	
+			active = true;
+		}
     }
 
     void LazerLeave(GameObject delHit)
     {
         if (delHit == gameObject && !origin && active)
         {
+
             if (hit && active) {
                 print(gameObject.name);
-                DelegateHandeler.LazerLeaveEvent(oldHit);
+				DelegateHandeler.LazerLeaveEvent(oldHit);
             }
 
             lineRenderer.useWorldSpace = false;

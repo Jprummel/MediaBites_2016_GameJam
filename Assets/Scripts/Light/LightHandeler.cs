@@ -14,17 +14,19 @@ public class LightHandeler : MonoBehaviour {
         GameObject lightobj = Instantiate(new GameObject(), new Vector3(transform.position.x, transform.position.y, -5), new Quaternion()) as GameObject;
         lightobj.AddComponent<Light>();
         light = lightobj.GetComponent<Light>();
-        light.intensity = 4;
+        light.intensity = 5;
         light.type = LightType.Spot;
         light.transform.parent = transform;
-        light.spotAngle = 10;
-        light.enabled = false;
+        light.spotAngle = 120;
+		light.range = 30;
+		light.enabled = false;
+
 
         if (!origin)
         {
-            DelegateHandeler.OnlazerLeave += LazerLeave;
+			LineSplitter.OnlazerLeave += LazerLeave;
         }
-        DelegateHandeler.OnLazerHit += LazerHit;
+		LineSplitter.OnLazerHit += LazerHit;
         if (origin) LazerHit(gameObject);
 	}
 

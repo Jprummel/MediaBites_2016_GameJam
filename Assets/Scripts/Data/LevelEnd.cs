@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelEnd : MonoBehaviour {
-    
     [SerializeField]private Text        _endText;
     [SerializeField]private GameObject _lightObject;
                     private bool _levelHasEnded;
@@ -27,6 +26,7 @@ public class LevelEnd : MonoBehaviour {
 
     IEnumerator LevelEndingLose(float waitTime)
     {
+        GetComponent<CameraShake>().Shake();
         _endText.text = "You lost, better luck next time";
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene(0);

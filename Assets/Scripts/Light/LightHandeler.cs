@@ -14,10 +14,10 @@ public class LightHandeler : MonoBehaviour {
         GameObject lightobj = Instantiate(new GameObject(), new Vector3(transform.position.x, transform.position.y, -5), new Quaternion()) as GameObject;
         lightobj.AddComponent<Light>();
         light = lightobj.GetComponent<Light>();
-        light.intensity = 5;
+        light.intensity = 1.5f;
         light.type = LightType.Spot;
         light.transform.parent = transform;
-        light.spotAngle = 120;
+        light.spotAngle = 200;
 		light.range = 30;
 		light.enabled = false;
 

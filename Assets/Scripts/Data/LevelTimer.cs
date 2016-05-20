@@ -16,14 +16,17 @@ public class LevelTimer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        _timerText.text = _timer.ToString("0");
-        if (_timer > 0)
+        if (!_levelEnd.levelHasEnded())
         {
-            _timer -= Time.deltaTime;
-        }
-        if (_timer <= 0)
-        {
-            _levelEnd.LevelLose();
+            _timerText.text = "Time left : " + _timer.ToString("0");
+            if (_timer > 0)
+            {
+                _timer -= Time.deltaTime;
+            }
+            if (_timer <= 0)
+            {
+                _levelEnd.LevelLose();
+            }
         }
 	}
 }

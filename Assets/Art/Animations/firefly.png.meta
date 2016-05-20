@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 9094c924dfaa3fb47babcaf22deccea9
+timeCreated: 1463732247
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: firefly_0
+    21300002: firefly_1
+    21300004: firefly_2
+    21300006: firefly_3
+    21300008: firefly_4
+    21300010: firefly_5
+    21300012: firefly_6
+    21300014: firefly_7
+    21300016: firefly_8
+    21300018: firefly_9
+    21300020: firefly_10
+    21300022: firefly_11
+    21300024: firefly_12
+    21300026: firefly_13
+    21300028: firefly_14
+    21300030: firefly_15
+    21300032: firefly_16
+    21300034: firefly_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: firefly_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 427
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -23, y: 17.5}
+        - {x: -23, y: -15.5}
+        - {x: -15, y: -23.5}
+        - {x: 13, y: -23.5}
+        - {x: 23, y: -15.5}
+        - {x: 23, y: 19.5}
+        - {x: 16, y: 23.5}
+    - name: firefly_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 425
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 24.5}
+        - {x: -24, y: 19.5}
+        - {x: -24, y: -19.5}
+        - {x: -20, y: -24.5}
+        - {x: 23, y: -24.5}
+        - {x: 24, y: -21.5}
+        - {x: 24, y: 18.5}
+        - {x: 14, y: 24.5}
+    - name: firefly_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 424
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 25}
+        - {x: -25.5, y: -20}
+        - {x: -15.5, y: -25}
+        - {x: 16.5, y: -25}
+        - {x: 25.5, y: -15}
+        - {x: 25.5, y: 17}
+        - {x: 17.5, y: 25}
+    - name: firefly_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 423
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 26}
+        - {x: -26.5, y: -24}
+        - {x: -19.5, y: -26}
+        - {x: 24.5, y: -26}
+        - {x: 26.5, y: -19}
+        - {x: 26.5, y: 22}
+        - {x: 23.5, y: 26}
+    - name: firefly_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 421
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 27}
+        - {x: -27.5, y: 17}
+        - {x: -27.5, y: -14}
+        - {x: -18.5, y: -27}
+        - {x: 24.5, y: -27}
+        - {x: 27.5, y: -24}
+        - {x: 27.5, y: 17}
+        - {x: 21.5, y: 27}
+    - name: firefly_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 28}
+        - {x: -28, y: 17}
+        - {x: -28, y: -19}
+        - {x: -17, y: -28}
+        - {x: 18, y: -28}
+        - {x: 28, y: -14}
+        - {x: 28, y: 12}
+        - {x: 23, y: 28}
+    - name: firefly_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 322
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 29}
+        - {x: -14.5, y: 29}
+        - {x: -19.5, y: 25}
+        - {x: -24.5, y: 19}
+        - {x: -28.5, y: 14}
+        - {x: -28.5, y: -21}
+        - {x: -22.5, y: -29}
+        - {x: 17.5, y: -29}
+        - {x: 28.5, y: -25}
+        - {x: 28.5, y: 17}
+        - {x: 21.5, y: 28}
+    - name: firefly_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 320
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 30}
+        - {x: -29.5, y: 22}
+        - {x: -29.5, y: -27}
+        - {x: -20.5, y: -30}
+        - {x: 21.5, y: -30}
+        - {x: 29.5, y: -17}
+        - {x: 29.5, y: 15}
+        - {x: 21.5, y: 30}
+    - name: firefly_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 318
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 30.5}
+        - {x: -30.5, y: 19.5}
+        - {x: -30.5, y: -30.5}
+        - {x: 30.5, y: -30.5}
+        - {x: 30.5, y: 26.5}
+        - {x: 20.5, y: 30.5}
+    - name: firefly_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 317
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31}
+        - {x: -31.5, y: -27}
+        - {x: -21.5, y: -31}
+        - {x: 28.5, y: -31}
+        - {x: 31.5, y: -28}
+        - {x: 31.5, y: 31}
+    - name: firefly_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -32, y: 27}
+        - {x: -32, y: -18}
+        - {x: -19, y: -32}
+        - {x: 30, y: -32}
+        - {x: 32, y: -22}
+        - {x: 32, y: 23}
+        - {x: 26, y: 32}
+    - name: firefly_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 209
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 33}
+        - {x: -31.5, y: 24}
+        - {x: -33.5, y: 15}
+        - {x: -33.5, y: -29}
+        - {x: -20.5, y: -33}
+        - {x: 22.5, y: -33}
+        - {x: 33.5, y: -16}
+        - {x: 33.5, y: 30}
+        - {x: 21.5, y: 33}
+    - name: firefly_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 205
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 34}
+        - {x: -16.5, y: 34}
+        - {x: -34.5, y: 25}
+        - {x: -34.5, y: -28}
+        - {x: -31.5, y: -34}
+        - {x: 16.5, y: -34}
+        - {x: 32.5, y: -22}
+        - {x: 34.5, y: -16}
+        - {x: 34.5, y: 20}
+    - name: firefly_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 202
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 35}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -33}
+        - {x: -31.5, y: -35}
+        - {x: 24.5, y: -35}
+        - {x: 34.5, y: -32}
+        - {x: 34.5, y: 23}
+        - {x: 21.5, y: 35}
+    - name: firefly_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 82
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34}
+        - {x: -33.5, y: 22}
+        - {x: -34.5, y: 17}
+        - {x: -34.5, y: -19}
+        - {x: -22.5, y: -34}
+        - {x: 28.5, y: -34}
+        - {x: 34.5, y: -24}
+        - {x: 34.5, y: 31}
+        - {x: 30.5, y: 34}
+    - name: firefly_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 79
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 34}
+        - {x: -33.5, y: 25}
+        - {x: -33.5, y: -24}
+        - {x: -32.5, y: -26}
+        - {x: -26.5, y: -34}
+        - {x: 23.5, y: -34}
+        - {x: 33.5, y: -30}
+        - {x: 33.5, y: 25}
+        - {x: 26.5, y: 34}
+    - name: firefly_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 78
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 33}
+        - {x: -31.5, y: 24}
+        - {x: -33.5, y: 15}
+        - {x: -33.5, y: -29}
+        - {x: -20.5, y: -33}
+        - {x: 22.5, y: -33}
+        - {x: 33.5, y: -16}
+        - {x: 33.5, y: 30}
+        - {x: 21.5, y: 33}
+    - name: firefly_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 75
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 20.5}
+        - {x: -32.5, y: -19.5}
+        - {x: -24.5, y: -32.5}
+        - {x: 23.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 27.5}
+        - {x: 29.5, y: 32.5}
+        - {x: -19.5, y: 32.5}
+        - {x: -31.5, y: 23.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -44,8 +44,12 @@ public class LightHandeler : MonoBehaviour {
 
     void LazerHit(GameObject hit)
     {
-        if (hit == gameObject) {
-            ToggleLight(true);
+        if (hit != null)
+        {
+            if (hit == gameObject)
+            {
+                ToggleLight(true);
+            }
         }
     }
 

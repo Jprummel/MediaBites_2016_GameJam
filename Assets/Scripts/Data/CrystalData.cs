@@ -37,7 +37,11 @@ public class CrystalData : MonoBehaviour {
 			_soundFX.PlaySound(0);
 			_crystals.Add (crystal);
 			_crystalsLeft.text = "Crystals left : " + _crystals.Count.ToString ();
-		}
+        }
+        else
+        {
+            _levelEnd.LevelLose(2);
+        }
     }
 
 	public bool checkForCrystals(GameObject crystal)
@@ -55,6 +59,7 @@ public class CrystalData : MonoBehaviour {
             _soundFX.PlaySound(3);
 			_levelEnd.LevelLose (3);
 		}
+
         _soundFX.PlaySound(1);
         _crystals.Remove(crystal);
         _crystalsLeft.text = "Crystals left : " + _crystals.Count.ToString();

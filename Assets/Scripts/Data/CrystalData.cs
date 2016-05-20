@@ -1,15 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
-public class CheckCrystals : MonoBehaviour {
-    [SerializeField]private List<GameObject> _crystals;
-                    private LevelEnd _levelEnd;
+public class CrystalData : MonoBehaviour {
+
+    [SerializeField]private List<GameObject>    _crystals;
+    [SerializeField]private Text                _crystalsLeft;
+                    private LevelEnd            _levelEnd;
+                    private SoundEffects        _soundFX;
+
 
 	// Use this for initialization
 	void Start () {
         _levelEnd = GetComponent<LevelEnd>();
-
+        _soundFX = GetComponent<SoundEffects>();
         _crystals = new List<GameObject>();
         foreach (GameObject crystal in GameObject.FindGameObjectsWithTag("Crystal"))
         {
@@ -30,14 +35,17 @@ public class CheckCrystals : MonoBehaviour {
     {
         if (!_crystals.Contains(crystal))
         {
+            //_soundFX.PlaySound(0);
             _crystals.Add(crystal);
+            _crystalsLeft.text = "Crystals left : " + _crystals.Count.ToString();
         }
     }
 
     public void Remove(GameObject crystal)
     {
+        //_soundFX.PlaySound(1);
         _crystals.Remove(crystal);
-
+        _crystalsLeft.text = "Crystals left : " + _crystals.Count.ToString();
         if (_crystals.Count == 0)
         {
             //WinLevel function

@@ -128,10 +128,10 @@ public class LineRendererScript : MonoBehaviour {
     {
         if (delHit == gameObject && !origin && active)
         {
+            _manageCrystals.AddCrystal();
             if (hit && active) {
                 print(gameObject.name);
 				DelegateHandeler.LazerLeaveEvent(oldHit);
-                _manageCrystals.AddCrystal();
             }
 
             lineRenderer.useWorldSpace = false;

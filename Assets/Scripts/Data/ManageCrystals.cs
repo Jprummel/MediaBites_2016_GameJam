@@ -3,15 +3,13 @@ using System.Collections;
 
 public class ManageCrystals : MonoBehaviour {
 
-    private CheckCrystals _crystalManager;
+    private CrystalData _crystalManager;
     private LineRendererScript _lineRenderer;
-    private CheckCrystals _checkCrystals;
-	// Use this for initialization
+   // Use this for initialization
 	void Start () 
     {        
         _lineRenderer = GetComponent<LineRendererScript>();
-        _checkCrystals = GameObject.Find("Main Camera").GetComponent<CheckCrystals>();
-        _crystalManager = GameObject.Find("Main Camera").GetComponent<CheckCrystals>();
+        _crystalManager = GameObject.Find("Main Camera").GetComponent<CrystalData>();
 	}
 	
 	// Update is called once per frame
@@ -27,6 +25,6 @@ public class ManageCrystals : MonoBehaviour {
     public void RemoveCrystal()
     {
             _crystalManager.Remove(this.gameObject);
-            _checkCrystals.CheckLitCrystals();        
+            _crystalManager.CheckLitCrystals();        
     }
 }

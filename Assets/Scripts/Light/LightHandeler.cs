@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class LightHandeler : MonoBehaviour {
     [SerializeField]
@@ -10,11 +11,16 @@ public class LightHandeler : MonoBehaviour {
     int lightGrothAmound = 20;
     [SerializeField]
     int count = 0;
+
+    Coroutine up, down;
+
+    float intensity = 1.5f;
 	void Awake () {
         GameObject lightobj = Instantiate(new GameObject(), new Vector3(transform.position.x, transform.position.y, -5), new Quaternion()) as GameObject;
         lightobj.AddComponent<Light>();
+
         light = lightobj.GetComponent<Light>();
-        light.intensity = 1.5f;
+        light.intensity = 0;
         light.type = LightType.Spot;
         light.transform.parent = transform;
         light.spotAngle = 200;
@@ -39,10 +45,6 @@ public class LightHandeler : MonoBehaviour {
     void LazerHit(GameObject hit)
     {
         if (hit == gameObject) {
-            //if (activeLazers <= 1) ToggleLight(true);
-            //activeLazers++;
-            //Rad += lightGrothAmound;
-
             ToggleLight(true);
         }
     }
@@ -76,6 +78,32 @@ public class LightHandeler : MonoBehaviour {
     public void ToggleLight(bool toggle)
     {
         count++;
-        light.enabled = toggle;
+        try { StopCoroutine(up); StopCoroutine(down); }
+        catch { }
+
+        if (toggle) up = StartCoroutine(FadeUp());
+        else down = StartCoroutine(FadeDown());
+    }
+
+    IEnumerator FadeUp() {
+        light.enabled = true;
+
+        while (light.intensity < intensity) {
+            light.intensity += 0.01f;
+            yield return new WaitForSeconds(0.01f);
+        } 
+        
+    }
+
+    IEnumerator FadeDown()
+    {
+        WaitForSeconds wait = new WaitForSeconds(0.01f);
+        light.enabled = true;
+
+        while (light.intensity > 0) {
+            light.intensity -= 0.05f;
+
+            yield return wait;
+        } light.enabled = false;
     }
 }

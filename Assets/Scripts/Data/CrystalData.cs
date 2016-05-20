@@ -34,7 +34,7 @@ public class CrystalData : MonoBehaviour {
     public void Add(GameObject crystal)
     {
 		if (!_crystals.Contains (crystal)) {
-			//_soundFX.PlaySound(0);
+			_soundFX.PlaySound(0);
 			_crystals.Add (crystal);
 			_crystalsLeft.text = "Crystals left : " + _crystals.Count.ToString ();
 		}
@@ -50,12 +50,12 @@ public class CrystalData : MonoBehaviour {
 	}
     public void Remove(GameObject crystal)
     {
-        //_soundFX.PlaySound(1);
 		if(!_crystals.Contains(crystal))
-		{
-			Debug.Log ("Allahu akbar");
-			_levelEnd.LevelLose ();
+        {
+            _soundFX.PlaySound(3);
+			_levelEnd.LevelLose (3);
 		}
+        _soundFX.PlaySound(1);
         _crystals.Remove(crystal);
         _crystalsLeft.text = "Crystals left : " + _crystals.Count.ToString();
         if (_crystals.Count == 0)

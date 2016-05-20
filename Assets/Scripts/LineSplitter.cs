@@ -26,7 +26,6 @@ public class LineSplitter : MonoBehaviour {
 
 	void LazerHitEvent(GameObject hit) {
 
-		print (hit);
 		if (hit) {
 		/*	if (!_crystalData.checkForCrystals (hit)) 
 			{

@@ -25,7 +25,7 @@ public class LevelTimer : MonoBehaviour {
             }
             if (_timer <= 0)
             {
-                _levelEnd.LevelLose();
+                _levelEnd.LevelLose(2);
             }
         }
 	}

@@ -19,7 +19,7 @@ public class LineRendererScript : MonoBehaviour {
     public RaycastHit2D hit;
     GameObject oldHit = null;
 
-    void Awake()
+    void Start()
     {
         _manageCrystals = GetComponent<ManageCrystals>();
         lineRenderer = GetComponent<LineRenderer>();
@@ -112,6 +112,7 @@ public class LineRendererScript : MonoBehaviour {
 
     void OnDestroy()
     {
+		print ("destroy");
 		LineSplitter.OnLazerHit -= LazerHit;
 		LineSplitter.OnlazerLeave -= LazerLeave;
     }

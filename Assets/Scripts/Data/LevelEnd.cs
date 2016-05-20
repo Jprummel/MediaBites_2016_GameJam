@@ -29,14 +29,18 @@ public class LevelEnd : MonoBehaviour {
         GetComponent<CameraShake>().Shake();
         _endText.text = "You lost, better luck next time";
         yield return new WaitForSeconds(waitTime);
+		DelegateHandeler.Nullify ();
+		LineSplitter.Nullify ();
         SceneManager.LoadScene(0);
     }
 
     IEnumerator LevelEndingWin()
     {
         DelegateHandeler.LazerHitEvent(_lightObject);
-        _endText.text = "Congratulations get ready for the next level";
+		_endText.text = "Congratulations get ready for the next level";
         yield return new WaitForSeconds(2);
+		DelegateHandeler.Nullify ();
+		LineSplitter.Nullify ();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

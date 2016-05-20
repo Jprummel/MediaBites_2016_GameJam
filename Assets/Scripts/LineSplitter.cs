@@ -35,11 +35,17 @@ public class LineSplitter : MonoBehaviour {
 			Transform[] children = hit.GetComponentsInChildren<Transform> ();
 
 			foreach (Transform obj in children) {
-				OnLazerHit (obj.gameObject);
+				if (OnLazerHit != null) 
+					OnLazerHit (obj.gameObject);
 			}
 		}
 	}
-
+	public static void Nullify()
+	{
+		Debug.Log ("Ik laad een nieuwe scene");
+		OnLazerHit = null;
+		OnlazerLeave = null;
+	}
 	void LazerLeaveEvent (GameObject hit) {
 		print (hit + "Destroy");
 
@@ -47,7 +53,8 @@ public class LineSplitter : MonoBehaviour {
 			Transform[] children = hit.GetComponentsInChildren<Transform> ();
 
 			foreach (Transform obj in children) {
-				OnlazerLeave (obj.gameObject);
+				if (OnlazerLeave != null)
+					OnlazerLeave (obj.gameObject);
 			}
 		}
 	}

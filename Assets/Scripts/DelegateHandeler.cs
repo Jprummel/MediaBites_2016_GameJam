@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DelegateHandeler : MonoBehaviour {
+public class DelegateHandeler  {
 
     public delegate void LazerHit(GameObject hit);
     public static event LazerHit OnLazerHit;
@@ -11,12 +11,19 @@ public class DelegateHandeler : MonoBehaviour {
 
     public static void LazerHitEvent(GameObject hit)
     {
-        OnLazerHit(hit);
+		if (OnLazerHit != null) 
+        	OnLazerHit(hit);
     }
     
     public static void LazerLeaveEvent(GameObject hit)
     {
-        
-        OnlazerLeave(hit);
+		if (OnlazerLeave != null) 
+        	OnlazerLeave(hit);
     }
+	public static void Nullify()
+	{
+		Debug.Log ("Ik laad een nieuwe scene");
+		OnLazerHit = null;
+		OnlazerLeave = null;
+	}
 }

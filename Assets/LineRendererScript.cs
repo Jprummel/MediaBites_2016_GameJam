@@ -64,9 +64,10 @@ public class LineRendererScript : MonoBehaviour {
 
                     if (!CheckIfSelf())
                     {
-                        print("nou ik weet niet");
                         if (oldHit)
-							DelegateHandeler.LazerLeaveEvent(oldHit);
+                        {
+                            DelegateHandeler.LazerLeaveEvent(oldHit);
+                        }
                     }
                 }
 
@@ -118,7 +119,6 @@ public class LineRendererScript : MonoBehaviour {
     void LazerHit(GameObject hit)
     {
 		if (hit == gameObject && !origin) {
-			print ("i am activated" + gameObject.name);	
 			active = true;
             _manageCrystals.RemoveCrystal();
 		}

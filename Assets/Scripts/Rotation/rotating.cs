@@ -4,6 +4,12 @@ using System.Collections;
 public class rotating : MonoBehaviour {
 
 	bool _shouldIRotate = false;
+    private SoundEffects _soundFX;
+
+    void Start()
+    {
+        _soundFX = GameObject.Find("Main Camera").GetComponent<SoundEffects>();
+    }
 
 	void OnMouseDown()
 	{
@@ -19,6 +25,7 @@ public class rotating : MonoBehaviour {
 
 	void Rotate()
 	{
+        _soundFX.PlaySound(2);
 		Vector3 mousePos = Input.mousePosition;
 		Quaternion qTo;
 		Vector3 objectPos = Camera.main.WorldToScreenPoint (transform.position);

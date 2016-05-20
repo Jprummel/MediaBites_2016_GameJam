@@ -1,0 +1,2830 @@
+fileFormatVersion: 2
+guid: a3507854a6cc8134ca8a00ec0f35e0fb
+timeCreated: 1463726065
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hagedis-spritesheet_0
+    21300002: hagedis-spritesheet_1
+    21300004: hagedis-spritesheet_2
+    21300006: hagedis-spritesheet_3
+    21300008: hagedis-spritesheet_4
+    21300010: hagedis-spritesheet_5
+    21300012: hagedis-spritesheet_6
+    21300014: hagedis-spritesheet_7
+    21300016: hagedis-spritesheet_8
+    21300018: hagedis-spritesheet_9
+    21300020: hagedis-spritesheet_10
+    21300022: hagedis-spritesheet_11
+    21300024: hagedis-spritesheet_12
+    21300026: hagedis-spritesheet_13
+    21300028: hagedis-spritesheet_14
+    21300030: hagedis-spritesheet_15
+    21300032: hagedis-spritesheet_16
+    21300034: hagedis-spritesheet_17
+    21300036: hagedis-spritesheet_18
+    21300038: hagedis-spritesheet_19
+    21300040: hagedis-spritesheet_20
+    21300042: hagedis-spritesheet_21
+    21300044: hagedis-spritesheet_22
+    21300046: hagedis-spritesheet_23
+    21300048: hagedis-spritesheet_24
+    21300050: hagedis-spritesheet_25
+    21300052: hagedis-spritesheet_26
+    21300054: hagedis-spritesheet_27
+    21300056: hagedis-spritesheet_28
+    21300058: hagedis-spritesheet_29
+    21300060: hagedis-spritesheet_30
+    21300062: hagedis-spritesheet_31
+    21300064: hagedis-spritesheet_32
+    21300066: hagedis-spritesheet_33
+    21300068: hagedis-spritesheet_34
+    21300070: hagedis-spritesheet_35
+    21300072: hagedis-spritesheet_36
+    21300074: hagedis-spritesheet_37
+    21300076: hagedis-spritesheet_38
+    21300078: hagedis-spritesheet_39
+    21300080: hagedis-spritesheet_40
+    21300082: hagedis-spritesheet_41
+    21300084: hagedis-spritesheet_42
+    21300086: hagedis-spritesheet_43
+    21300088: hagedis-spritesheet_44
+    21300090: hagedis-spritesheet_45
+    21300092: hagedis-spritesheet_46
+    21300094: hagedis-spritesheet_47
+    21300096: hagedis-spritesheet_48
+    21300098: hagedis-spritesheet_49
+    21300100: hagedis-spritesheet_50
+    21300102: hagedis-spritesheet_51
+    21300104: hagedis-spritesheet_52
+    21300106: hagedis-spritesheet_53
+    21300108: hagedis-spritesheet_54
+    21300110: hagedis-spritesheet_55
+    21300112: hagedis-spritesheet_56
+    21300114: hagedis-spritesheet_57
+    21300116: hagedis-spritesheet_58
+    21300118: hagedis-spritesheet_59
+    21300120: hagedis-spritesheet_60
+    21300122: hagedis-spritesheet_61
+    21300124: hagedis-spritesheet_62
+    21300126: hagedis-spritesheet_63
+    21300128: hagedis-spritesheet_64
+    21300130: hagedis-spritesheet_65
+    21300132: hagedis-spritesheet_66
+    21300134: hagedis-spritesheet_67
+    21300136: hagedis-spritesheet_68
+    21300138: hagedis-spritesheet_69
+    21300140: hagedis-spritesheet_70
+    21300142: hagedis-spritesheet_71
+    21300144: hagedis-spritesheet_72
+    21300146: hagedis-spritesheet_73
+    21300148: hagedis-spritesheet_74
+    21300150: hagedis-spritesheet_75
+    21300152: hagedis-spritesheet_76
+    21300154: hagedis-spritesheet_77
+    21300156: hagedis-spritesheet_78
+    21300158: hagedis-spritesheet_79
+    21300160: hagedis-spritesheet_80
+    21300162: hagedis-spritesheet_81
+    21300164: hagedis-spritesheet_82
+    21300166: hagedis-spritesheet_83
+    21300168: hagedis-spritesheet_84
+    21300170: hagedis-spritesheet_85
+    21300172: hagedis-spritesheet_86
+    21300174: hagedis-spritesheet_87
+    21300176: hagedis-spritesheet_88
+    21300178: hagedis-spritesheet_89
+    21300180: hagedis-spritesheet_90
+    21300182: hagedis-spritesheet_91
+    21300184: hagedis-spritesheet_92
+    21300186: hagedis-spritesheet_93
+    21300188: hagedis-spritesheet_94
+    21300190: hagedis-spritesheet_95
+    21300192: hagedis-spritesheet_96
+    21300194: hagedis-spritesheet_97
+    21300196: hagedis-spritesheet_98
+    21300198: hagedis-spritesheet_99
+    21300200: hagedis-spritesheet_100
+    21300202: hagedis-spritesheet_101
+    21300204: hagedis-spritesheet_102
+    21300206: hagedis-spritesheet_103
+    21300208: hagedis-spritesheet_104
+    21300210: hagedis-spritesheet_105
+    21300212: hagedis-spritesheet_106
+    21300214: hagedis-spritesheet_107
+    21300216: hagedis-spritesheet_108
+    21300218: hagedis-spritesheet_109
+    21300220: hagedis-spritesheet_110
+    21300222: hagedis-spritesheet_111
+    21300224: hagedis-spritesheet_112
+    21300226: hagedis-spritesheet_113
+    21300228: hagedis-spritesheet_114
+    21300230: hagedis-spritesheet_115
+    21300232: hagedis-spritesheet_116
+    21300234: hagedis-spritesheet_117
+    21300236: hagedis-spritesheet_118
+    21300238: hagedis-spritesheet_119
+    21300240: hagedis-spritesheet_120
+    21300242: hagedis-spritesheet_121
+    21300244: hagedis-spritesheet_122
+    21300246: hagedis-spritesheet_123
+    21300248: hagedis-spritesheet_124
+    21300250: hagedis-spritesheet_125
+    21300252: hagedis-spritesheet_126
+    21300254: hagedis-spritesheet_127
+    21300256: hagedis-spritesheet_128
+    21300258: hagedis-spritesheet_129
+    21300260: hagedis-spritesheet_130
+    21300262: hagedis-spritesheet_131
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: hagedis-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3905
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 0.75}
+        - {x: 0, y: -3.25}
+        - {x: 0, y: -60.25}
+        - {x: 49, y: -90.25}
+        - {x: 104, y: -90.25}
+        - {x: 108, y: -83.25}
+        - {x: 108, y: -33.25}
+        - {x: 90, y: 0.75}
+    - name: hagedis-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 3905
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 0.75}
+        - {x: 0, y: -3.25}
+        - {x: 0, y: -60.25}
+        - {x: 49, y: -90.25}
+        - {x: 104, y: -90.25}
+        - {x: 108, y: -83.25}
+        - {x: 108, y: -33.25}
+        - {x: 90, y: 0.75}
+    - name: hagedis-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3888
+        width: 216
+        height: 198
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 0}
+        - {x: 29, y: 0}
+        - {x: 0, y: -11}
+        - {x: 0, y: -56}
+        - {x: 3, y: -64}
+        - {x: 72, y: -99}
+        - {x: 94, y: -99}
+        - {x: 108, y: -63}
+        - {x: 108, y: -39}
+        - {x: 64, y: -1}
+    - name: hagedis-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3901
+        width: 216
+        height: 185
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 0.75}
+        - {x: 27, y: 0.75}
+        - {x: 0, y: -17.25}
+        - {x: 0, y: -57.25}
+        - {x: 46, y: -92.25}
+        - {x: 93, y: -92.25}
+        - {x: 108, y: -74.25}
+        - {x: 108, y: -40.25}
+        - {x: 64, y: -0.25}
+    - name: hagedis-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3905
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 0.75}
+        - {x: 0, y: -3.25}
+        - {x: 0, y: -60.25}
+        - {x: 49, y: -90.25}
+        - {x: 104, y: -90.25}
+        - {x: 108, y: -83.25}
+        - {x: 108, y: -33.25}
+        - {x: 90, y: 0.75}
+    - name: hagedis-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3905
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 0.75}
+        - {x: 0, y: -16.25}
+        - {x: 0, y: -49.25}
+        - {x: 20, y: -69.25}
+        - {x: 64, y: -90.25}
+        - {x: 90, y: -90.25}
+        - {x: 108, y: -65.25}
+        - {x: 108, y: -32.25}
+        - {x: 62, y: 0.75}
+    - name: hagedis-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3905
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 0.75}
+        - {x: 27, y: 0.75}
+        - {x: 0, y: -17.25}
+        - {x: 0, y: -56.25}
+        - {x: 49, y: -90.25}
+        - {x: 100, y: -90.25}
+        - {x: 108, y: -67.25}
+        - {x: 108, y: -31.25}
+        - {x: 64, y: -0.25}
+    - name: hagedis-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 3905
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 0.75}
+        - {x: 0, y: -16.25}
+        - {x: 0, y: -49.25}
+        - {x: 21, y: -70.25}
+        - {x: 54, y: -90.25}
+        - {x: 93, y: -90.25}
+        - {x: 108, y: -73.25}
+        - {x: 108, y: -33.25}
+        - {x: 62, y: 0.75}
+    - name: hagedis-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3693
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 1}
+        - {x: 0, y: -18}
+        - {x: 0, y: -50}
+        - {x: 30, y: -77}
+        - {x: 61, y: -90}
+        - {x: 91, y: -90}
+        - {x: 108, y: -78}
+        - {x: 108, y: -38}
+        - {x: 81, y: 1}
+    - name: hagedis-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 3692
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 0.25}
+        - {x: 32, y: 0.25}
+        - {x: 0, y: -9.75}
+        - {x: 0, y: -69.75}
+        - {x: 56, y: -90.75}
+        - {x: 99, y: -90.75}
+        - {x: 108, y: -64.75}
+        - {x: 108, y: -31.75}
+    - name: hagedis-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3692
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 0.25}
+        - {x: 0, y: -18.75}
+        - {x: 0, y: -51.75}
+        - {x: 46, y: -90.75}
+        - {x: 97, y: -90.75}
+        - {x: 108, y: -81.75}
+        - {x: 108, y: -38.75}
+        - {x: 77, y: 0.25}
+    - name: hagedis-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3693
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 1}
+        - {x: 0, y: -12}
+        - {x: 0, y: -72}
+        - {x: 35, y: -90}
+        - {x: 99, y: -90}
+        - {x: 108, y: -61}
+        - {x: 108, y: -34}
+        - {x: 62, y: 1}
+    - name: hagedis-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3692
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 0.25}
+        - {x: 0, y: -6.75}
+        - {x: 0, y: -73.75}
+        - {x: 48, y: -90.75}
+        - {x: 91, y: -90.75}
+        - {x: 108, y: -61.75}
+        - {x: 108, y: -41.75}
+        - {x: 71, y: 0.25}
+    - name: hagedis-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3692
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 0.25}
+        - {x: 0, y: -7.75}
+        - {x: 0, y: -68.75}
+        - {x: 66, y: -90.75}
+        - {x: 100, y: -90.75}
+        - {x: 108, y: -82.75}
+        - {x: 108, y: -37.75}
+        - {x: 78, y: 0.25}
+    - name: hagedis-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3692
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0.25}
+        - {x: 0, y: -15.75}
+        - {x: 0, y: -64.75}
+        - {x: 2, y: -67.75}
+        - {x: 37, y: -90.75}
+        - {x: 91, y: -90.75}
+        - {x: 108, y: -71.75}
+        - {x: 108, y: -41.75}
+        - {x: 62, y: 0.25}
+    - name: hagedis-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 3693
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 1}
+        - {x: 0, y: -15}
+        - {x: 0, y: -64}
+        - {x: 2, y: -67}
+        - {x: 47, y: -90}
+        - {x: 103, y: -90}
+        - {x: 108, y: -84}
+        - {x: 108, y: -36}
+        - {x: 79, y: 1}
+    - name: hagedis-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3480
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 0}
+        - {x: 27, y: 0}
+        - {x: 0, y: -18}
+        - {x: 0, y: -50}
+        - {x: 21, y: -71}
+        - {x: 61, y: -90}
+        - {x: 94, y: -90}
+        - {x: 108, y: -73}
+        - {x: 108, y: -41}
+        - {x: 64, y: -1}
+    - name: hagedis-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 3480
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 0}
+        - {x: 0, y: -17}
+        - {x: 0, y: -54}
+        - {x: 15, y: -79}
+        - {x: 48, y: -90}
+        - {x: 108, y: -90}
+        - {x: 108, y: -29}
+        - {x: 62, y: 0}
+    - name: hagedis-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3480
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 0}
+        - {x: 27, y: 0}
+        - {x: 0, y: -18}
+        - {x: 0, y: -59}
+        - {x: 47, y: -90}
+        - {x: 97, y: -90}
+        - {x: 98, y: -89}
+        - {x: 108, y: -62}
+        - {x: 108, y: -35}
+        - {x: 64, y: -1}
+    - name: hagedis-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3480
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 0}
+        - {x: 0, y: -8}
+        - {x: 0, y: -68}
+        - {x: 6, y: -90}
+        - {x: 108, y: -90}
+        - {x: 108, y: -39}
+        - {x: 76, y: 0}
+    - name: hagedis-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3480
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -1}
+        - {x: 61, y: 0}
+        - {x: 27, y: 0}
+        - {x: 0, y: -18}
+        - {x: 0, y: -50}
+        - {x: 21, y: -71}
+        - {x: 65, y: -90}
+        - {x: 85, y: -90}
+        - {x: 94, y: -87}
+        - {x: 108, y: -63}
+        - {x: 108, y: -41}
+    - name: hagedis-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3480
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -1}
+        - {x: 61, y: 0}
+        - {x: 27, y: 0}
+        - {x: 0, y: -18}
+        - {x: 0, y: -50}
+        - {x: 21, y: -71}
+        - {x: 71, y: -90}
+        - {x: 85, y: -90}
+        - {x: 100, y: -83}
+        - {x: 108, y: -63}
+        - {x: 108, y: -34}
+    - name: hagedis-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3480
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -63}
+        - {x: 8, y: -84}
+        - {x: 21, y: -90}
+        - {x: 97, y: -90}
+        - {x: 108, y: -80}
+        - {x: 108, y: -34}
+        - {x: 62, y: 0}
+    - name: hagedis-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 3481
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 0.75}
+        - {x: 0, y: -16.25}
+        - {x: 0, y: -56.25}
+        - {x: 14, y: -87.25}
+        - {x: 31, y: -89.25}
+        - {x: 108, y: -89.25}
+        - {x: 108, y: -31.25}
+        - {x: 62, y: 0.75}
+    - name: hagedis-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3268
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.75, y: 0}
+        - {x: -0.25, y: -1}
+        - {x: -0.25, y: -57}
+        - {x: 49.75, y: -90}
+        - {x: 97.75, y: -90}
+        - {x: 100.75, y: -88}
+        - {x: 107.75, y: -61}
+        - {x: 107.75, y: -37}
+        - {x: 76.75, y: 0}
+    - name: hagedis-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 3267
+        width: 215
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.75, y: 0.75}
+        - {x: 30.75, y: 0.75}
+        - {x: -0.25, y: -8.25}
+        - {x: -0.25, y: -64.25}
+        - {x: 0.75, y: -68.25}
+        - {x: 67.75, y: -90.25}
+        - {x: 86.75, y: -90.25}
+        - {x: 93.75, y: -84.25}
+        - {x: 107.75, y: -57.25}
+        - {x: 107.75, y: -38.25}
+    - name: hagedis-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3267
+        width: 215
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.75, y: 0.75}
+        - {x: -0.25, y: -8.25}
+        - {x: -0.25, y: -65.25}
+        - {x: 0.75, y: -68.25}
+        - {x: 53.75, y: -90.25}
+        - {x: 93.75, y: -90.25}
+        - {x: 98.75, y: -89.25}
+        - {x: 107.75, y: -61.25}
+        - {x: 107.75, y: -37.25}
+        - {x: 61.75, y: 0.75}
+    - name: hagedis-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3268
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.75, y: 0}
+        - {x: 2.75, y: -13}
+        - {x: -0.25, y: -23}
+        - {x: -0.25, y: -59}
+        - {x: 11.75, y: -85}
+        - {x: 35.75, y: -90}
+        - {x: 107.75, y: -90}
+        - {x: 107.75, y: -33}
+        - {x: 76.75, y: 0}
+    - name: hagedis-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3268
+        width: 214
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 0}
+        - {x: 3, y: -13}
+        - {x: 0, y: -23}
+        - {x: 0, y: -49}
+        - {x: 22, y: -67}
+        - {x: 64, y: -90}
+        - {x: 91, y: -90}
+        - {x: 99, y: -88}
+        - {x: 107, y: -59}
+        - {x: 107, y: -38}
+        - {x: 62, y: 0}
+    - name: hagedis-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3268
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.25, y: 0}
+        - {x: -0.25, y: -59}
+        - {x: 10.75, y: -86}
+        - {x: 32.75, y: -90}
+        - {x: 107.75, y: -90}
+        - {x: 107.75, y: -30}
+        - {x: 87.75, y: 0}
+    - name: hagedis-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3268
+        width: 213
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.75, y: 0}
+        - {x: -0.25, y: -1}
+        - {x: -0.25, y: -63}
+        - {x: 23.75, y: -90}
+        - {x: 101.75, y: -90}
+        - {x: 105.75, y: -89}
+        - {x: 106.75, y: -83}
+        - {x: 106.75, y: -33}
+        - {x: 76.75, y: 0}
+    - name: hagedis-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 3264
+        width: 213
+        height: 184
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.75, y: 0}
+        - {x: -0.25, y: -6}
+        - {x: -0.25, y: -70}
+        - {x: 45.75, y: -92}
+        - {x: 95.75, y: -92}
+        - {x: 106.75, y: -75}
+        - {x: 106.75, y: -36}
+        - {x: 70.75, y: 0}
+    - name: hagedis-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3043
+        width: 213
+        height: 191
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.25, y: 0.75}
+        - {x: -0.25, y: -56.25}
+        - {x: 13.75, y: -86.25}
+        - {x: 66.75, y: -95.25}
+        - {x: 106.75, y: -95.25}
+        - {x: 106.75, y: -25.25}
+        - {x: 78.75, y: 0.75}
+    - name: hagedis-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 3053
+        width: 213
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.75, y: 0.75}
+        - {x: 4.75, y: -9.25}
+        - {x: -0.25, y: -20.25}
+        - {x: -0.25, y: -52.25}
+        - {x: 20.75, y: -70.25}
+        - {x: 71.75, y: -90.25}
+        - {x: 94.75, y: -90.25}
+        - {x: 106.75, y: -75.25}
+        - {x: 106.75, y: -34.25}
+        - {x: 76.75, y: 0.75}
+    - name: hagedis-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3056
+        width: 212
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -50}
+        - {x: 21, y: -71}
+        - {x: 45, y: -89}
+        - {x: 96, y: -89}
+        - {x: 106, y: -79}
+        - {x: 106, y: -35}
+        - {x: 69, y: 0}
+        - {x: 27, y: 0}
+        - {x: 0, y: -18}
+    - name: hagedis-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3056
+        width: 212
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -71}
+        - {x: 44, y: -89}
+        - {x: 96, y: -89}
+        - {x: 106, y: -77}
+        - {x: 106, y: -29}
+        - {x: 87, y: 0}
+        - {x: 9, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -50}
+    - name: hagedis-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3056
+        width: 212
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -84}
+        - {x: 33, y: -89}
+        - {x: 106, y: -89}
+        - {x: 106, y: -34}
+        - {x: 82, y: 0}
+    - name: hagedis-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3055
+        width: 211
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102.75, y: -35.25}
+        - {x: 63.75, y: -0.25}
+        - {x: 60.75, y: 0.75}
+        - {x: 26.75, y: 0.75}
+        - {x: -0.25, y: -17.25}
+        - {x: -0.25, y: -49.25}
+        - {x: 20.75, y: -70.25}
+        - {x: 70.75, y: -89.25}
+        - {x: 91.75, y: -89.25}
+        - {x: 97.75, y: -84.25}
+        - {x: 105.75, y: -54.25}
+        - {x: 105.75, y: -36.25}
+    - name: hagedis-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3055
+        width: 211
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.75, y: 0.75}
+        - {x: 6.75, y: -12.25}
+        - {x: -0.25, y: -21.25}
+        - {x: -0.25, y: -49.25}
+        - {x: 20.75, y: -70.25}
+        - {x: 46.75, y: -89.25}
+        - {x: 94.75, y: -89.25}
+        - {x: 105.75, y: -76.25}
+        - {x: 105.75, y: -26.25}
+        - {x: 61.75, y: 0.75}
+    - name: hagedis-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 3055
+        width: 211
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.75, y: 0.75}
+        - {x: -0.25, y: -8.25}
+        - {x: -0.25, y: -68.25}
+        - {x: 5.75, y: -89.25}
+        - {x: 105.75, y: -89.25}
+        - {x: 105.75, y: -28.25}
+        - {x: 80.75, y: 0.75}
+    - name: hagedis-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2842
+        width: 211
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.75, y: 0.25}
+        - {x: 33.75, y: 0.25}
+        - {x: 2.75, y: -12.75}
+        - {x: -0.25, y: -22.75}
+        - {x: -0.25, y: -51.75}
+        - {x: 16.75, y: -74.75}
+        - {x: 57.75, y: -89.75}
+        - {x: 86.75, y: -89.75}
+        - {x: 97.75, y: -83.75}
+        - {x: 105.75, y: -60.75}
+        - {x: 105.75, y: -36.75}
+        - {x: 104.75, y: -32.75}
+    - name: hagedis-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2842
+        width: 211
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.75, y: 0.25}
+        - {x: 2.75, y: -12.75}
+        - {x: -0.25, y: -22.75}
+        - {x: -0.25, y: -51.75}
+        - {x: 16.75, y: -74.75}
+        - {x: 59.75, y: -89.75}
+        - {x: 97.75, y: -89.75}
+        - {x: 105.75, y: -80.75}
+        - {x: 105.75, y: -28.75}
+        - {x: 75.75, y: 0.25}
+    - name: hagedis-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2843
+        width: 211
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.75, y: 1}
+        - {x: -0.25, y: -16}
+        - {x: -0.25, y: -60}
+        - {x: 18.75, y: -71}
+        - {x: 53.75, y: -89}
+        - {x: 92.75, y: -89}
+        - {x: 98.75, y: -84}
+        - {x: 105.75, y: -63}
+        - {x: 105.75, y: -31}
+        - {x: 61.75, y: 1}
+    - name: hagedis-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2842
+        width: 211
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.75, y: 0.25}
+        - {x: -0.25, y: -15.75}
+        - {x: -0.25, y: -67.75}
+        - {x: 37.75, y: -89.75}
+        - {x: 91.75, y: -89.75}
+        - {x: 96.75, y: -84.75}
+        - {x: 105.75, y: -57.75}
+        - {x: 105.75, y: -33.75}
+        - {x: 62.75, y: 0.25}
+    - name: hagedis-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2843
+        width: 212
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 1}
+        - {x: 3, y: -12}
+        - {x: 0, y: -22}
+        - {x: 0, y: -69}
+        - {x: 5, y: -89}
+        - {x: 106, y: -89}
+        - {x: 106, y: -32}
+        - {x: 77, y: 1}
+    - name: hagedis-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2843
+        width: 212
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 1}
+        - {x: 0, y: -58}
+        - {x: 44, y: -89}
+        - {x: 95, y: -89}
+        - {x: 99, y: -84}
+        - {x: 106, y: -64}
+        - {x: 106, y: -19}
+        - {x: 66, y: 1}
+    - name: hagedis-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2843
+        width: 212
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 1}
+        - {x: 0, y: -62}
+        - {x: 42, y: -89}
+        - {x: 94, y: -89}
+        - {x: 98, y: -84}
+        - {x: 106, y: -66}
+        - {x: 106, y: -19}
+        - {x: 66, y: 1}
+    - name: hagedis-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2843
+        width: 213
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.75, y: 1}
+        - {x: -0.25, y: -10}
+        - {x: -0.25, y: -63}
+        - {x: 49.75, y: -89}
+        - {x: 93.75, y: -89}
+        - {x: 98.75, y: -86}
+        - {x: 106.75, y: -63}
+        - {x: 106.75, y: -30}
+        - {x: 61.75, y: 1}
+    - name: hagedis-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2630
+        width: 213
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.75, y: 0}
+        - {x: -0.25, y: -7}
+        - {x: -0.25, y: -70}
+        - {x: 65.75, y: -89}
+        - {x: 100.75, y: -89}
+        - {x: 106.75, y: -72}
+        - {x: 106.75, y: -29}
+        - {x: 61.75, y: 0}
+    - name: hagedis-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2630
+        width: 213
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.75, y: 0}
+        - {x: 10.75, y: 0}
+        - {x: -0.25, y: -9}
+        - {x: -0.25, y: -60}
+        - {x: 1.75, y: -65}
+        - {x: 72.75, y: -89}
+        - {x: 95.75, y: -89}
+        - {x: 102.75, y: -86}
+        - {x: 106.75, y: -70}
+        - {x: 106.75, y: -19}
+    - name: hagedis-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2630
+        width: 213
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.75, y: 0}
+        - {x: 0.75, y: -7}
+        - {x: -0.25, y: -8}
+        - {x: -0.25, y: -53}
+        - {x: 31.75, y: -79}
+        - {x: 55.75, y: -89}
+        - {x: 99.75, y: -89}
+        - {x: 106.75, y: -81}
+        - {x: 106.75, y: -33}
+        - {x: 79.75, y: 0}
+    - name: hagedis-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2630
+        width: 215
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.25, y: 0}
+        - {x: -0.25, y: -73}
+        - {x: 54.75, y: -89}
+        - {x: 92.75, y: -89}
+        - {x: 107.75, y: -65}
+        - {x: 107.75, y: -31}
+        - {x: 76.75, y: 0}
+    - name: hagedis-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2630
+        width: 214
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -69}
+        - {x: 9, y: -89}
+        - {x: 107, y: -89}
+        - {x: 107, y: -28}
+        - {x: 84, y: 0}
+    - name: hagedis-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2630
+        width: 215
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.25, y: -58}
+        - {x: 42.75, y: -89}
+        - {x: 98.75, y: -89}
+        - {x: 107.75, y: -78}
+        - {x: 107.75, y: -28}
+        - {x: 83.75, y: 0}
+        - {x: 25.75, y: 0}
+        - {x: 1.75, y: -8}
+        - {x: -0.25, y: -12}
+    - name: hagedis-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2630
+        width: 215
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.75, y: 0}
+        - {x: 4.75, y: -10}
+        - {x: -0.25, y: -21}
+        - {x: -0.25, y: -53}
+        - {x: 20.75, y: -71}
+        - {x: 63.75, y: -89}
+        - {x: 95.75, y: -89}
+        - {x: 107.75, y: -73}
+        - {x: 107.75, y: -38}
+        - {x: 68.75, y: 0}
+    - name: hagedis-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2630
+        width: 215
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.75, y: 0}
+        - {x: 4.75, y: -10}
+        - {x: -0.25, y: -21}
+        - {x: -0.25, y: -53}
+        - {x: 19.75, y: -70}
+        - {x: 61.75, y: -89}
+        - {x: 97.75, y: -89}
+        - {x: 107.75, y: -79}
+        - {x: 107.75, y: -39}
+        - {x: 71.75, y: 0}
+    - name: hagedis-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2418
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.25}
+        - {x: 0, y: -57.75}
+        - {x: 42, y: -88.75}
+        - {x: 98, y: -88.75}
+        - {x: 108, y: -73.75}
+        - {x: 108, y: -29.75}
+        - {x: 72, y: 0.25}
+    - name: hagedis-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2418
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 0.25}
+        - {x: 0, y: -0.75}
+        - {x: 0, y: -49.75}
+        - {x: 9, y: -58.75}
+        - {x: 32, y: -71.75}
+        - {x: 69, y: -88.75}
+        - {x: 94, y: -88.75}
+        - {x: 108, y: -67.75}
+        - {x: 108, y: -38.75}
+        - {x: 77, y: 0.25}
+    - name: hagedis-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2418
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 0.25}
+        - {x: 0, y: -0.75}
+        - {x: 0, y: -60.75}
+        - {x: 3, y: -67.75}
+        - {x: 52, y: -88.75}
+        - {x: 105, y: -88.75}
+        - {x: 108, y: -81.75}
+        - {x: 108, y: -40.75}
+        - {x: 76, y: 0.25}
+    - name: hagedis-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2419
+        width: 216
+        height: 176
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 1}
+        - {x: 0, y: 0}
+        - {x: 0, y: -60}
+        - {x: 41, y: -88}
+        - {x: 98, y: -88}
+        - {x: 102, y: -83}
+        - {x: 108, y: -66}
+        - {x: 108, y: -40}
+        - {x: 76, y: 1}
+    - name: hagedis-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2418
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -67.75}
+        - {x: 38, y: -88.75}
+        - {x: 100, y: -88.75}
+        - {x: 108, y: -79.75}
+        - {x: 108, y: -40.75}
+        - {x: 79, y: 0.25}
+        - {x: 3, y: 0.25}
+        - {x: 0, y: -0.75}
+        - {x: 0, y: -60.75}
+    - name: hagedis-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2419
+        width: 216
+        height: 176
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 1}
+        - {x: 0, y: 0}
+        - {x: 0, y: -60}
+        - {x: 41, y: -88}
+        - {x: 98, y: -88}
+        - {x: 102, y: -83}
+        - {x: 108, y: -66}
+        - {x: 108, y: -40}
+        - {x: 76, y: 1}
+    - name: hagedis-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2418
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0.25}
+        - {x: 0, y: -0.75}
+        - {x: 0, y: -59.75}
+        - {x: 47, y: -88.75}
+        - {x: 99, y: -88.75}
+        - {x: 108, y: -69.75}
+        - {x: 108, y: -23.75}
+        - {x: 80, y: 0.25}
+    - name: hagedis-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2418
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 0.25}
+        - {x: 0, y: -0.75}
+        - {x: 0, y: -54.75}
+        - {x: 53, y: -88.75}
+        - {x: 96, y: -88.75}
+        - {x: 101, y: -84.75}
+        - {x: 108, y: -65.75}
+        - {x: 108, y: -40.75}
+        - {x: 76, y: 0.25}
+    - name: hagedis-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2204
+        width: 216
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0}
+        - {x: 0, y: -8}
+        - {x: 0, y: -71}
+        - {x: 4, y: -89}
+        - {x: 108, y: -89}
+        - {x: 108, y: -32}
+        - {x: 62, y: 0}
+    - name: hagedis-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2205
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -0.25}
+        - {x: 59, y: 0.75}
+        - {x: 30, y: 0.75}
+        - {x: 5, y: -9.25}
+        - {x: 0, y: -20.25}
+        - {x: 0, y: -52.25}
+        - {x: 20, y: -69.25}
+        - {x: 73, y: -88.25}
+        - {x: 90, y: -88.25}
+        - {x: 97, y: -81.25}
+        - {x: 108, y: -62.25}
+        - {x: 108, y: -38.25}
+    - name: hagedis-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2205
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 0.75}
+        - {x: 5, y: -10.25}
+        - {x: 0, y: -20.25}
+        - {x: 0, y: -54.25}
+        - {x: 29, y: -83.25}
+        - {x: 57, y: -88.25}
+        - {x: 104, y: -88.25}
+        - {x: 108, y: -82.25}
+        - {x: 108, y: -37.25}
+        - {x: 77, y: 0.75}
+    - name: hagedis-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2205
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 0.75}
+        - {x: 0, y: -4.25}
+        - {x: 0, y: -57.25}
+        - {x: 49, y: -88.25}
+        - {x: 97, y: -88.25}
+        - {x: 108, y: -76.25}
+        - {x: 108, y: -29.25}
+        - {x: 90, y: 0.75}
+    - name: hagedis-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2205
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 0.75}
+        - {x: 0, y: -1.25}
+        - {x: 0, y: -57.25}
+        - {x: 50, y: -88.25}
+        - {x: 104, y: -88.25}
+        - {x: 108, y: -81.25}
+        - {x: 108, y: -32.25}
+        - {x: 89, y: 0.75}
+    - name: hagedis-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2204
+        width: 216
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -1}
+        - {x: 59, y: 0}
+        - {x: 30, y: 0}
+        - {x: 5, y: -10}
+        - {x: 0, y: -21}
+        - {x: 0, y: -53}
+        - {x: 21, y: -70}
+        - {x: 67, y: -89}
+        - {x: 94, y: -89}
+        - {x: 108, y: -69}
+        - {x: 108, y: -44}
+        - {x: 106, y: -42}
+    - name: hagedis-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2204
+        width: 216
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -58}
+        - {x: 49, y: -89}
+        - {x: 108, y: -89}
+        - {x: 108, y: -28}
+        - {x: 98, y: 0}
+        - {x: 27, y: 0}
+        - {x: 0, y: -18}
+    - name: hagedis-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2204
+        width: 216
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -55}
+        - {x: 45, y: -89}
+        - {x: 100, y: -89}
+        - {x: 108, y: -79}
+        - {x: 108, y: -42}
+        - {x: 66, y: 0}
+        - {x: 27, y: 0}
+        - {x: 0, y: -18}
+    - name: hagedis-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1992
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.25}
+        - {x: 0, y: -50.75}
+        - {x: 31, y: -76.75}
+        - {x: 48, y: -88.75}
+        - {x: 95, y: -88.75}
+        - {x: 108, y: -74.75}
+        - {x: 108, y: -23.75}
+        - {x: 67, y: 0.25}
+    - name: hagedis-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1992
+        width: 216
+        height: 177
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0.25}
+        - {x: 0, y: -0.75}
+        - {x: 0, y: -51.75}
+        - {x: 31, y: -75.75}
+        - {x: 63, y: -88.75}
+        - {x: 101, y: -88.75}
+        - {x: 108, y: -81.75}
+        - {x: 108, y: -38.75}
+        - {x: 76, y: 0.25}
+    - name: hagedis-spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1990
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 0.25}
+        - {x: 2, y: -11.75}
+        - {x: 0, y: -18.75}
+        - {x: 0, y: -49.75}
+        - {x: 10, y: -58.75}
+        - {x: 61, y: -89.75}
+        - {x: 103, y: -89.75}
+        - {x: 108, y: -83.75}
+        - {x: 108, y: -40.75}
+        - {x: 74, y: 0.25}
+    - name: hagedis-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1991
+        width: 216
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 1}
+        - {x: 0, y: -13}
+        - {x: 0, y: -61}
+        - {x: 19, y: -71}
+        - {x: 55, y: -89}
+        - {x: 92, y: -89}
+        - {x: 98, y: -84}
+        - {x: 108, y: -60}
+        - {x: 108, y: -34}
+        - {x: 62, y: 1}
+    - name: hagedis-spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1990
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0.25}
+        - {x: 0, y: -16.75}
+        - {x: 0, y: -63.75}
+        - {x: 41, y: -89.75}
+        - {x: 96, y: -89.75}
+        - {x: 108, y: -74.75}
+        - {x: 108, y: -41.75}
+        - {x: 62, y: 0.25}
+    - name: hagedis-spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1990
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.25}
+        - {x: 0, y: -75.75}
+        - {x: 41, y: -89.75}
+        - {x: 97, y: -89.75}
+        - {x: 103, y: -86.75}
+        - {x: 108, y: -62.75}
+        - {x: 108, y: -36.75}
+        - {x: 67, y: 0.25}
+    - name: hagedis-spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1990
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 0.25}
+        - {x: 3, y: -12.75}
+        - {x: 0, y: -17.75}
+        - {x: 0, y: -58.75}
+        - {x: 44, y: -89.75}
+        - {x: 103, y: -89.75}
+        - {x: 104, y: -88.75}
+        - {x: 108, y: -69.75}
+        - {x: 108, y: -35.75}
+        - {x: 62, y: 0.25}
+    - name: hagedis-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1990
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -22.75}
+        - {x: 0, y: -51.75}
+        - {x: 17, y: -74.75}
+        - {x: 49, y: -89.75}
+        - {x: 94, y: -89.75}
+        - {x: 108, y: -78.75}
+        - {x: 108, y: -40.75}
+        - {x: 73, y: 0.25}
+        - {x: 34, y: 0.25}
+        - {x: 3, y: -12.75}
+    - name: hagedis-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1777
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 0.75}
+        - {x: 5, y: -9.25}
+        - {x: 0, y: -20.25}
+        - {x: 0, y: -52.25}
+        - {x: 21, y: -70.25}
+        - {x: 63, y: -89.25}
+        - {x: 91, y: -89.25}
+        - {x: 108, y: -66.25}
+        - {x: 108, y: -29.25}
+        - {x: 62, y: 0.75}
+    - name: hagedis-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1777
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 0.75}
+        - {x: 27, y: 0.75}
+        - {x: 0, y: -17.25}
+        - {x: 0, y: -49.25}
+        - {x: 21, y: -70.25}
+        - {x: 68, y: -89.25}
+        - {x: 90, y: -89.25}
+        - {x: 101, y: -86.25}
+        - {x: 108, y: -61.25}
+        - {x: 108, y: -36.25}
+        - {x: 64, y: -0.25}
+    - name: hagedis-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1778
+        width: 216
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 0}
+        - {x: 0, y: -16}
+        - {x: 0, y: -68}
+        - {x: 42, y: -89}
+        - {x: 95, y: -89}
+        - {x: 99, y: -86}
+        - {x: 108, y: -75}
+        - {x: 108, y: -41}
+        - {x: 77, y: 0}
+    - name: hagedis-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1778
+        width: 216
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 0}
+        - {x: 0, y: -17}
+        - {x: 0, y: -50}
+        - {x: 21, y: -71}
+        - {x: 56, y: -89}
+        - {x: 91, y: -89}
+        - {x: 99, y: -84}
+        - {x: 108, y: -64}
+        - {x: 108, y: -33}
+        - {x: 63, y: 0}
+    - name: hagedis-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1777
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -53.25}
+        - {x: 45, y: -89.25}
+        - {x: 98, y: -89.25}
+        - {x: 108, y: -78.25}
+        - {x: 108, y: -41.25}
+        - {x: 66, y: 0.75}
+        - {x: 27, y: 0.75}
+        - {x: 0, y: -17.25}
+    - name: hagedis-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1777
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 0.75}
+        - {x: 0, y: -16.25}
+        - {x: 0, y: -49.25}
+        - {x: 21, y: -70.25}
+        - {x: 48, y: -89.25}
+        - {x: 95, y: -89.25}
+        - {x: 108, y: -75.25}
+        - {x: 108, y: -33.25}
+        - {x: 62, y: 0.75}
+    - name: hagedis-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1777
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 0.75}
+        - {x: 0, y: -2.25}
+        - {x: 0, y: -57.25}
+        - {x: 50, y: -89.25}
+        - {x: 103, y: -89.25}
+        - {x: 108, y: -81.25}
+        - {x: 108, y: -32.25}
+        - {x: 89, y: 0.75}
+    - name: hagedis-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1777
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 0.75}
+        - {x: 0, y: -17.25}
+        - {x: 0, y: -52.25}
+        - {x: 17, y: -78.25}
+        - {x: 60, y: -89.25}
+        - {x: 103, y: -89.25}
+        - {x: 108, y: -82.25}
+        - {x: 108, y: -40.25}
+        - {x: 76, y: 0.75}
+    - name: hagedis-spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1564
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0}
+        - {x: 0, y: -17}
+        - {x: 0, y: -60}
+        - {x: 62, y: -90}
+        - {x: 99, y: -90}
+        - {x: 102, y: -89}
+        - {x: 108, y: -65}
+        - {x: 108, y: -36}
+        - {x: 62, y: 0}
+    - name: hagedis-spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1564
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0}
+        - {x: 2, y: -10}
+        - {x: 0, y: -17}
+        - {x: 0, y: -57}
+        - {x: 46, y: -90}
+        - {x: 94, y: -90}
+        - {x: 108, y: -76}
+        - {x: 108, y: -26}
+        - {x: 63, y: 0}
+    - name: hagedis-spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1564
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -55}
+        - {x: 34, y: -78}
+        - {x: 49, y: -85}
+        - {x: 59, y: -90}
+        - {x: 101, y: -90}
+        - {x: 108, y: -78}
+        - {x: 108, y: -15}
+        - {x: 87, y: 0}
+    - name: hagedis-spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1564
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -59}
+        - {x: 41, y: -90}
+        - {x: 93, y: -90}
+        - {x: 108, y: -72}
+        - {x: 108, y: -41}
+        - {x: 76, y: 0}
+    - name: hagedis-spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1564
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 0}
+        - {x: 0, y: -20}
+        - {x: 0, y: -46}
+        - {x: 19, y: -73}
+        - {x: 63, y: -90}
+        - {x: 94, y: -90}
+        - {x: 108, y: -79}
+        - {x: 108, y: -41}
+        - {x: 74, y: 0}
+    - name: hagedis-spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1564
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 0}
+        - {x: 4, y: -13}
+        - {x: 0, y: -23}
+        - {x: 0, y: -51}
+        - {x: 9, y: -61}
+        - {x: 59, y: -90}
+        - {x: 95, y: -90}
+        - {x: 103, y: -88}
+        - {x: 108, y: -63}
+        - {x: 108, y: -38}
+        - {x: 62, y: 0}
+    - name: hagedis-spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1564
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 0}
+        - {x: 0, y: -5}
+        - {x: 0, y: -53}
+        - {x: 38, y: -88}
+        - {x: 46, y: -90}
+        - {x: 92, y: -90}
+        - {x: 108, y: -68}
+        - {x: 108, y: -27}
+        - {x: 65, y: 0}
+    - name: hagedis-spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1564
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 0}
+        - {x: 35, y: -9}
+        - {x: 3, y: -12}
+        - {x: 0, y: -22}
+        - {x: 0, y: -49}
+        - {x: 28, y: -71}
+        - {x: 66, y: -90}
+        - {x: 100, y: -90}
+        - {x: 108, y: -62}
+        - {x: 108, y: -36}
+        - {x: 62, y: 0}
+    - name: hagedis-spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1350
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.75, y: 0}
+        - {x: -0.25, y: -7}
+        - {x: -0.25, y: -51}
+        - {x: 14.75, y: -81}
+        - {x: 47.75, y: -90}
+        - {x: 93.75, y: -90}
+        - {x: 107.75, y: -77}
+        - {x: 107.75, y: -38}
+        - {x: 78.75, y: 0}
+    - name: hagedis-spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1350
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.75, y: 0}
+        - {x: -0.25, y: -18}
+        - {x: -0.25, y: -50}
+        - {x: 1.75, y: -57}
+        - {x: 21.75, y: -71}
+        - {x: 57.75, y: -90}
+        - {x: 92.75, y: -90}
+        - {x: 107.75, y: -66}
+        - {x: 107.75, y: -31}
+        - {x: 61.75, y: 0}
+    - name: hagedis-spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1350
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.75, y: 0}
+        - {x: -0.25, y: -17}
+        - {x: -0.25, y: -49}
+        - {x: 51.75, y: -90}
+        - {x: 89.75, y: -90}
+        - {x: 107.75, y: -75}
+        - {x: 107.75, y: -33}
+        - {x: 61.75, y: 0}
+    - name: hagedis-spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1350
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.75, y: 0}
+        - {x: -0.25, y: -5}
+        - {x: -0.25, y: -52}
+        - {x: 16.75, y: -84}
+        - {x: 41.75, y: -90}
+        - {x: 89.75, y: -90}
+        - {x: 107.75, y: -67}
+        - {x: 107.75, y: -33}
+        - {x: 61.75, y: 0}
+    - name: hagedis-spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1350
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.75, y: 0}
+        - {x: 6.75, y: 0}
+        - {x: -0.25, y: -3}
+        - {x: -0.25, y: -53}
+        - {x: 15.75, y: -79}
+        - {x: 49.75, y: -90}
+        - {x: 89.75, y: -90}
+        - {x: 94.75, y: -84}
+        - {x: 107.75, y: -63}
+        - {x: 107.75, y: -28}
+    - name: hagedis-spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1350
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.75, y: 0}
+        - {x: -0.25, y: -13}
+        - {x: -0.25, y: -54}
+        - {x: 1.75, y: -59}
+        - {x: 46.75, y: -90}
+        - {x: 89.75, y: -90}
+        - {x: 107.75, y: -74}
+        - {x: 107.75, y: -31}
+        - {x: 61.75, y: 0}
+    - name: hagedis-spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1350
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.75, y: 0}
+        - {x: 4.75, y: -9}
+        - {x: -0.25, y: -21}
+        - {x: -0.25, y: -50}
+        - {x: 11.75, y: -59}
+        - {x: 60.75, y: -90}
+        - {x: 95.75, y: -90}
+        - {x: 107.75, y: -76}
+        - {x: 107.75, y: -42}
+        - {x: 69.75, y: 0}
+    - name: hagedis-spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1350
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.75, y: 0}
+        - {x: -0.25, y: -13}
+        - {x: -0.25, y: -74}
+        - {x: 45.75, y: -90}
+        - {x: 107.75, y: -90}
+        - {x: 107.75, y: -41}
+        - {x: 74.75, y: 0}
+    - name: hagedis-spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1137
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.75, y: 1}
+        - {x: -0.25, y: -8}
+        - {x: -0.25, y: -45}
+        - {x: 8.75, y: -54}
+        - {x: 16.75, y: -64}
+        - {x: 65.75, y: -90}
+        - {x: 98.75, y: -90}
+        - {x: 107.75, y: -64}
+        - {x: 107.75, y: -30}
+        - {x: 74.75, y: 1}
+    - name: hagedis-spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1137
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.25, y: 1}
+        - {x: -0.25, y: -52}
+        - {x: 16.75, y: -86}
+        - {x: 37.75, y: -90}
+        - {x: 103.75, y: -90}
+        - {x: 107.75, y: -82}
+        - {x: 107.75, y: -38}
+        - {x: 89.75, y: 1}
+    - name: hagedis-spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1137
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.75, y: 1}
+        - {x: 38.75, y: 1}
+        - {x: 36.75, y: -2}
+        - {x: 5.75, y: -15}
+        - {x: -0.25, y: -24}
+        - {x: -0.25, y: -49}
+        - {x: 22.75, y: -70}
+        - {x: 66.75, y: -90}
+        - {x: 86.75, y: -90}
+        - {x: 93.75, y: -83}
+        - {x: 107.75, y: -60}
+        - {x: 107.75, y: -41}
+    - name: hagedis-spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1137
+        width: 215
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.25, y: 1}
+        - {x: -0.25, y: -58}
+        - {x: 47.75, y: -90}
+        - {x: 98.75, y: -90}
+        - {x: 99.75, y: -89}
+        - {x: 107.75, y: -61}
+        - {x: 107.75, y: -31}
+        - {x: 87.75, y: 1}
+    - name: hagedis-spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1138
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.75, y: 0.25}
+        - {x: 34.75, y: -8.75}
+        - {x: 2.75, y: -11.75}
+        - {x: -0.25, y: -21.75}
+        - {x: -0.25, y: -47.75}
+        - {x: 22.75, y: -72.75}
+        - {x: 63.75, y: -89.75}
+        - {x: 85.75, y: -89.75}
+        - {x: 93.75, y: -87.75}
+        - {x: 107.75, y: -62.75}
+        - {x: 107.75, y: -41.75}
+        - {x: 60.75, y: 0.25}
+    - name: hagedis-spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1138
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.75, y: 0.25}
+        - {x: 20.75, y: 0.25}
+        - {x: -0.25, y: -8.75}
+        - {x: -0.25, y: -53.75}
+        - {x: 46.75, y: -88.75}
+        - {x: 50.75, y: -89.75}
+        - {x: 95.75, y: -89.75}
+        - {x: 98.75, y: -88.75}
+        - {x: 107.75, y: -63.75}
+        - {x: 107.75, y: -31.75}
+    - name: hagedis-spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1138
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.75, y: 0.25}
+        - {x: -0.25, y: -10.75}
+        - {x: -0.25, y: -49.75}
+        - {x: 16.75, y: -78.75}
+        - {x: 36.75, y: -89.75}
+        - {x: 95.75, y: -89.75}
+        - {x: 107.75, y: -77.75}
+        - {x: 107.75, y: -41.75}
+        - {x: 70.75, y: 0.25}
+    - name: hagedis-spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1138
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.75, y: 0.25}
+        - {x: -0.25, y: -14.75}
+        - {x: -0.25, y: -72.75}
+        - {x: 18.75, y: -89.75}
+        - {x: 105.75, y: -89.75}
+        - {x: 107.75, y: -69.75}
+        - {x: 107.75, y: -41.75}
+        - {x: 66.75, y: 0.25}
+    - name: hagedis-spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.75, y: 0.75}
+        - {x: -0.25, y: -11.25}
+        - {x: -0.25, y: -77.25}
+        - {x: 4.75, y: -83.25}
+        - {x: 45.75, y: -89.25}
+        - {x: 107.75, y: -89.25}
+        - {x: 107.75, y: -36.25}
+        - {x: 63.75, y: 0.75}
+    - name: hagedis-spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 925
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.75, y: 0.75}
+        - {x: -0.25, y: -17.25}
+        - {x: -0.25, y: -59.25}
+        - {x: 42.75, y: -89.25}
+        - {x: 95.75, y: -89.25}
+        - {x: 99.75, y: -85.25}
+        - {x: 107.75, y: -65.25}
+        - {x: 107.75, y: -32.25}
+        - {x: 61.75, y: 0.75}
+    - name: hagedis-spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 926
+        width: 215
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.25, y: -46}
+        - {x: 21.75, y: -71}
+        - {x: 49.75, y: -89}
+        - {x: 107.75, y: -89}
+        - {x: 107.75, y: -27}
+        - {x: 91.75, y: 0}
+        - {x: 31.75, y: 0}
+        - {x: 6.75, y: -13}
+        - {x: -0.25, y: -22}
+    - name: hagedis-spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 926
+        width: 215
+        height: 178
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.75, y: 0}
+        - {x: 32.75, y: 0}
+        - {x: 6.75, y: -13}
+        - {x: -0.25, y: -18}
+        - {x: -0.25, y: -51}
+        - {x: 12.75, y: -72}
+        - {x: 49.75, y: -89}
+        - {x: 97.75, y: -89}
+        - {x: 107.75, y: -71}
+        - {x: 107.75, y: -40}
+        - {x: 63.75, y: -1}
+    - name: hagedis-spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 925
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.75, y: 0.75}
+        - {x: -0.25, y: -6.25}
+        - {x: -0.25, y: -51.25}
+        - {x: 14.75, y: -81.25}
+        - {x: 42.75, y: -89.25}
+        - {x: 96.75, y: -89.25}
+        - {x: 107.75, y: -78.25}
+        - {x: 107.75, y: -39.25}
+        - {x: 70.75, y: 0.75}
+    - name: hagedis-spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 925
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.75, y: 0.75}
+        - {x: 4.75, y: -9.25}
+        - {x: -0.25, y: -20.25}
+        - {x: -0.25, y: -52.25}
+        - {x: 21.75, y: -71.25}
+        - {x: 48.75, y: -89.25}
+        - {x: 95.75, y: -89.25}
+        - {x: 107.75, y: -77.25}
+        - {x: 107.75, y: -29.25}
+        - {x: 61.75, y: 0.75}
+    - name: hagedis-spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 925
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.75, y: 0.75}
+        - {x: 25.75, y: 0.75}
+        - {x: -0.25, y: -17.25}
+        - {x: -0.25, y: -53.25}
+        - {x: 56.75, y: -89.25}
+        - {x: 93.75, y: -89.25}
+        - {x: 101.75, y: -84.25}
+        - {x: 107.75, y: -62.25}
+        - {x: 107.75, y: -37.25}
+        - {x: 63.75, y: -0.25}
+    - name: hagedis-spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 925
+        width: 215
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.75, y: 0.75}
+        - {x: -0.25, y: -16.25}
+        - {x: -0.25, y: -52.25}
+        - {x: 42.75, y: -89.25}
+        - {x: 100.75, y: -89.25}
+        - {x: 107.75, y: -82.25}
+        - {x: 107.75, y: -33.25}
+        - {x: 61.75, y: 0.75}
+    - name: hagedis-spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 712
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 0.25}
+        - {x: 0, y: -9.75}
+        - {x: 0, y: -69.75}
+        - {x: 41, y: -89.75}
+        - {x: 102, y: -89.75}
+        - {x: 108, y: -72.75}
+        - {x: 108, y: -30.75}
+        - {x: 62, y: 0.25}
+    - name: hagedis-spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 712
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 0.25}
+        - {x: 0, y: -16.75}
+        - {x: 0, y: -63.75}
+        - {x: 50, y: -89.75}
+        - {x: 90, y: -89.75}
+        - {x: 94, y: -87.75}
+        - {x: 108, y: -63.75}
+        - {x: 108, y: -41.75}
+        - {x: 62, y: 0.25}
+    - name: hagedis-spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 712
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 0.25}
+        - {x: 0, y: -13.75}
+        - {x: 0, y: -65.75}
+        - {x: 35, y: -89.75}
+        - {x: 98, y: -89.75}
+        - {x: 108, y: -80.75}
+        - {x: 108, y: -34.75}
+        - {x: 62, y: 0.25}
+    - name: hagedis-spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 712
+        width: 216
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0.25}
+        - {x: 0, y: -16.75}
+        - {x: 0, y: -81.75}
+        - {x: 6, y: -89.75}
+        - {x: 108, y: -89.75}
+        - {x: 108, y: -41.75}
+        - {x: 62, y: 0.25}
+    - name: hagedis-spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 711
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 1}
+        - {x: 0, y: -18}
+        - {x: 0, y: -51}
+        - {x: 30, y: -76}
+        - {x: 61, y: -90}
+        - {x: 94, y: -90}
+        - {x: 108, y: -79}
+        - {x: 108, y: -38}
+        - {x: 80, y: 1}
+    - name: hagedis-spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 711
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: 1}
+        - {x: 30, y: 1}
+        - {x: 0, y: -7}
+        - {x: 0, y: -72}
+        - {x: 41, y: -90}
+        - {x: 88, y: -90}
+        - {x: 88, y: -89}
+        - {x: 92, y: -83}
+        - {x: 108, y: -61}
+        - {x: 108, y: -40}
+    - name: hagedis-spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 711
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 1}
+        - {x: 0, y: -18}
+        - {x: 0, y: -56}
+        - {x: 42, y: -90}
+        - {x: 93, y: -90}
+        - {x: 108, y: -79}
+        - {x: 108, y: -38}
+        - {x: 77, y: 1}
+    - name: hagedis-spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 710
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 0.25}
+        - {x: 0, y: -7.75}
+        - {x: 0, y: -68.75}
+        - {x: 65, y: -90.75}
+        - {x: 99, y: -90.75}
+        - {x: 108, y: -82.75}
+        - {x: 108, y: -37.75}
+        - {x: 78, y: 0.25}
+    - name: hagedis-spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 498
+        width: 216
+        height: 180
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -1}
+        - {x: 61, y: 0}
+        - {x: 27, y: 0}
+        - {x: 0, y: -18}
+        - {x: 0, y: -59}
+        - {x: 37, y: -90}
+        - {x: 91, y: -90}
+        - {x: 108, y: -72}
+        - {x: 108, y: -44}
+        - {x: 106, y: -42}
+    - name: hagedis-spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 497
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 0.75}
+        - {x: 0, y: -17.25}
+        - {x: 0, y: -56.25}
+        - {x: 44, y: -90.25}
+        - {x: 90, y: -90.25}
+        - {x: 93, y: -87.25}
+        - {x: 108, y: -73.25}
+        - {x: 108, y: -40.25}
+        - {x: 75, y: 0.75}
+    - name: hagedis-spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 497
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 0.75}
+        - {x: 27, y: 0.75}
+        - {x: 0, y: -17.25}
+        - {x: 0, y: -56.25}
+        - {x: 50, y: -90.25}
+        - {x: 88, y: -90.25}
+        - {x: 91, y: -88.25}
+        - {x: 108, y: -62.25}
+        - {x: 108, y: -41.25}
+        - {x: 64, y: -0.25}
+    - name: hagedis-spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 497
+        width: 216
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 0.75}
+        - {x: 3, y: -5.25}
+        - {x: 0, y: -10.25}
+        - {x: 0, y: -56.25}
+        - {x: 52, y: -90.25}
+        - {x: 91, y: -90.25}
+        - {x: 108, y: -75.25}
+        - {x: 108, y: -34.25}
+        - {x: 81, y: 0.75}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

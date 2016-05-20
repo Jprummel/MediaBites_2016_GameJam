@@ -7,6 +7,7 @@ public class LevelEnd : MonoBehaviour {
     
     [SerializeField]private Text        _endText;
                     private Animator    _animator;
+    [SerializeField]private GameObject _lightObject;
                     private bool _levelHasEnded;
                     public bool levelHasEnded()
                     {
@@ -46,8 +47,9 @@ public class LevelEnd : MonoBehaviour {
     {
         //_animator.Play("Camera_Win_Animations");
         //yield return new WaitForSeconds(2);
+        DelegateHandeler.LazerHitEvent(_lightObject);
         _endText.text = "Congratulations get ready for the next level";
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

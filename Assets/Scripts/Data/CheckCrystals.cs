@@ -16,11 +16,6 @@ public class CheckCrystals : MonoBehaviour {
             _crystals.Add(crystal);
         }
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
     public void CheckLitCrystals()
     {

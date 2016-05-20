@@ -18,7 +18,7 @@ public class LevelTimer : MonoBehaviour {
 	void Update () {
         if (!_levelEnd.levelHasEnded())
         {
-            _timerText.text = _timer.ToString("0");
+            _timerText.text = "Time left : " + _timer.ToString("0");
             if (_timer > 0)
             {
                 _timer -= Time.deltaTime;

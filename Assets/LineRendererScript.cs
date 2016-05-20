@@ -3,6 +3,7 @@ using System.Collections;
 
 public class LineRendererScript : MonoBehaviour {
 
+    private ManageCrystals _manageCrystals;
     LineRenderer lineRenderer;
 	[SerializeField]
     bool active, hitSomething, stopedHitSomething;
@@ -20,6 +21,7 @@ public class LineRendererScript : MonoBehaviour {
 
     void Awake()
     {
+        _manageCrystals = GetComponent<ManageCrystals>();
         lineRenderer = GetComponent<LineRenderer>();
 		LineSplitter.OnLazerHit += LazerHit;
 		LineSplitter.OnlazerLeave += LazerLeave;
@@ -42,9 +44,11 @@ public class LineRendererScript : MonoBehaviour {
                     lineRenderer.useWorldSpace = true;
                     lineRenderer.SetPosition(0, transform.position);
                     oldHit = hit.collider.gameObject;
-
+                    
                     if (!CheckIfSelf())
-						DelegateHandeler.LazerHitEvent(hit.collider.gameObject);
+                    {
+                        DelegateHandeler.LazerHitEvent(hit.collider.gameObject);
+                    }
                 }
 
                 DrawLineHit();
@@ -116,6 +120,7 @@ public class LineRendererScript : MonoBehaviour {
 		if (hit == gameObject && !origin) {
 			print ("i am activated" + gameObject.name);	
 			active = true;
+            _manageCrystals.RemoveCrystal();
 		}
     }
 
@@ -123,10 +128,10 @@ public class LineRendererScript : MonoBehaviour {
     {
         if (delHit == gameObject && !origin && active)
         {
-
             if (hit && active) {
                 print(gameObject.name);
 				DelegateHandeler.LazerLeaveEvent(oldHit);
+                _manageCrystals.AddCrystal();
             }
 
             lineRenderer.useWorldSpace = false;

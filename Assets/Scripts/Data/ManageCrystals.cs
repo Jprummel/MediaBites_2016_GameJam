@@ -4,13 +4,12 @@ using System.Collections;
 public class ManageCrystals : MonoBehaviour {
 
     private CheckCrystals _crystalManager;
-    private PointingLineRenderer _pointRenderer;
+    private LineRendererScript _lineRenderer;
     private CheckCrystals _checkCrystals;
 	// Use this for initialization
-	void Start () {
-        
-        
-        _pointRenderer = GetComponent<PointingLineRenderer>();
+	void Start () 
+    {        
+        _lineRenderer = GetComponent<LineRendererScript>();
         _checkCrystals = GameObject.Find("Main Camera").GetComponent<CheckCrystals>();
         _crystalManager = GameObject.Find("Main Camera").GetComponent<CheckCrystals>();
 	}

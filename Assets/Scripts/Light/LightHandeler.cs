@@ -39,8 +39,8 @@ public class LightHandeler : MonoBehaviour {
 
 	void OnDestroy()
 	{
-		DelegateHandeler.OnLazerHit -= LazerHit;
-		DelegateHandeler.OnlazerLeave -= LazerLeave;
+		LineSplitter.OnLazerHit -= LazerHit;
+		LineSplitter.OnlazerLeave -= LazerLeave;
 	}
 
 	void LazerHit(GameObject hit)

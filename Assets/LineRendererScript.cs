@@ -87,7 +87,7 @@ public class LineRendererScript : MonoBehaviour {
 
     void DrawLineHit()
     {
-        lineRenderer.SetPosition(1, oldHit.transform.position);
+        lineRenderer.SetPosition(1, hit.point);
     }
 
     void DrawLineFree()
